@@ -1,0 +1,103 @@
+I.E.S. Punta del Verde
+2025/2026
+Level Design con
+El objetivo de esta práctica es la construcción de un nivel en forma de mazmorra
+haciendo uso del videojuego Quest Master que puedes encontrar enlazado en la
+plataforma.
+Siguiendo los principios y la metodología vista en clase, deberás desarrollar un nivel
+en dicho videojuego.
+Agradecimientos a David García Oriol por su dedicación.
+Requerimientos
+En este apartado se definen los distintos requisitos que debe cumplir el nivel
+desarrollado y su documentación asociada.
+Empieza por elaborar una serie de bocetos de la documentación requerida (layout,
+beatsheet, pacing, etc) antes de ponerte a construir la mazmorra en sí. No
+profundices mucho de primeras, puesto que estos irán cambiando con cada
+iteración, pero es muy útil para saber lo que quieres y darle una estructura
+coherente.
+Requerimientos de documentación
+● Pacing: deberás indicar todos los eventos y ritmo de juego de tu mazmorra.
+○ Beat sheet: describe los distintos beats de tu nivel. Como mínimo
+deberás indicar: localización, objetivo, objeto de juego, enemigos y
+1
+I.E.S. Punta del Verde
+2025/2026
+mecánicas. Si has añadido algún tipo de historia a tu mazmorra,
+deberás indicar los eventos narrativos también.
+○ Flow: construye un diagrama de flujo de lo que ocurre en el nivel y en
+qué orden. Deberás definir distintos elementos del diagrama de flujo y
+su leyenda. No debe ser un paso a paso literal, definirlo a grandes
+rasgos de forma similar al ejemplo del Halo.
+○ Graph: Muestra un gráfico de la intensidad de tu nivel. Puedes hacerlo
+dividiendo las posibles situaciones a las que se va a enfrentar tu
+jugador (exploración, combate y puzle).
+● Investigación (Recomendable): si has realizado algún tipo de investigación
+acerca de cómo otros diseñadores han resuelto distintos problemas de
+diseño, la navegación de la mazmorra por ejemplo, describelo aquí.
+● Layout: construye un layout de cómo se estructura tu mazmorra, no temas
+hacerlo a mano, en este layout indica: nombre de zonas, puzzles, enemigos y
+otros elementos importantes. También adjunta un mapa final de la mazmorra
+con su golden path y otros caminos alternativos.
+2
+I.E.S. Punta del Verde
+2025/2026
+● Enemy palette: esto lo puedes utilizar en conjunción con el layout de la
+mazmorra. Una recopilación de los distintos enemigos y su propósito.
+● Problemas y soluciones halladas: indica que problemas de diseño te has
+encontrado en las distintas iteraciones de desarrollo y cómo los has
+solventado.
+Requerimientos del nivel
+● Temática: libre.
+● Scope: nivel de 10 minutos de duración crítica (a tiro hecho). Concreta
+secciones, enemigos, objetos, etc.
+● Target: jugador novel que acaba de empezar a jugar, es su primer nivel.
+○ Como tal, el personaje debería empezar con la menor cantidad de
+stats posible, esto puede ayudar a la hora de otorgar recompensas a lo
+largo de la mazmorra.
+● Teaching:
+○ Mecánicas básicas del juego. Como si no hubiera hecho el tutorial.
+○ Uso de objetos: mínimo 3 objetos. Más vale pocos objetos bien
+aprovechados que muchos superficiales.
+○ Tácticas contra distintos enemigos.
+3
+I.E.S. Punta del Verde
+2025/2026
+● Zonas: Deberá haber distintas zonas dentro de la mazmorra fácilmente
+diferenciables.
+● Coherencia: diseño estructural y visual de la mazmorra coherente. No
+podemos estar ascendiendo hasta unas profundidades de lava. Un ascenso
+que lleva a la derecha no vamos a parecer por arriba.
+● Uso de mapa: no se otorgará al jugador el mapa desde el inicio de la
+mazmorra. El jugador debería poder recorrerla de forma orgánica o natural
+mediante el uso de patrones y guías visuales.
+● Retos:
+○ Puzzles: deberás construir algunos puzzles basados en las mecánicas
+que nos proporciona el juego.
+○ Encuentros de combate: los combates deben servir a un propósito,
+no debes usarlos como simple relleno. Un combate puede ser un puzle
+en sí mismo, en cuanto a que el jugador debe desarrollar una
+estrategia para resolver el encuentro.
+○ Jefes: mínimo un jefe final de la mazmorra que ponga a prueba lo
+aprendido por el jugador. Puedes introducir jefes intermedios si lo
+deseas.
+■ Opcional: a la hora de introducir al jefe, crealo y personalizalo tu
+mismo, incorpora mecánicas propias de ese jefe. No utilices
+jefes pregenerados.
+4
+I.E.S. Punta del Verde
+2025/2026
+Entrega
+Documentación a entregar:
+Pacing:
+Beat sheet.
+Flow.
+Graph.
+Investigación.
+Layout.
+Enemy palette.
+Problemas y soluciones halladas.
+Archivos:
+Nivel de Quest Master.
+Entrega en un archivo comprimido.
+Indicadme el nombre de la mazmorra que aparece en Quest Master en el
+documento.

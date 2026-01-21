@@ -1,0 +1,3590 @@
+👾 Manual General
+QUEST MASTER
+MANUAL DE JUEGO
+📚 Tabla de contenido
+📕 General.
+📖 Mecánicas básicas.
+📖 Opciones.
+📕 Primeros pasos.
+📖 Inicio.
+📗 Libro de partes.
+📖 Terrain.
+📖 Decoration.
+📖 Items.
+📖 Hazards.
+📘 Ejemplo visual + análisis.
+📘 Diseñando una Dungeon.
+📖 Abrir editor.
+📖 Planificar temática.
+📖 Seleccionar mecánicas.
+📖 Castle Town.
+📕 Interfaz y mecánicas del editor.
+📖 Barra de herramientas.
+📄 Parts, Eraser,
+Eyedropper, etc.
+📄 Dungeon
+Information.
+📖 Lienzo.
+📖 Salas.
+📖 Plantas.
+📖 Iluminación.
+📖 Elevaciones.
+📖 Nivel del agua.
+📖 Congelación.
+📕 Estados alterados.
+📕 Anillos.
+📖 Interactable.
+📖 Gizmos.
+📗 Menú contextual.
+📖 Variantes.
+📖 Propiedades.
+📖 Condiciones generales.
+📖 Formas.
+📖 Secuencias.
+📗 Condiciones y mecanismos.
+📖 Condiciones comunes.
+📖 Condiciones de forma.
+📖 Guía de puertas lógicas.
+📖 Condiciones de color.
+📖 Navegación y arquitectura.
+📖 Enfoque de construcción.
+📖 Apartado visual.
+📖 Playtesting y revisiones.
+📖 Feedback y
+postproducción.
+📘 F.A.Q.
+👾 Manual General
+Quest Master es un videojuego y a su vez una herramienta de creación y
+edición de mazmorras y niveles, con un estilo muy similar al que podemos
+encontrar en juegos de acción y aventuras con toques de metroidvania,
+como por ejemplo la saga de The Legend of Zelda.
+El concepto del juego está basado en Super Mario Maker de Nintendo Wii
+U, y su secuela en Nintendo Switch. El estilo artístico está principalmente
+basado en el juego de Game Boy Advance: The Legend of Zelda - The
+Minish Cap. Este apartado y el sonoro destacan por su gran calidad y
+cuidado al detalle.
+Este juego cuenta con muchas herramientas creativas que permiten la
+edición completa, con millares de opciones, de niveles personalizados por
+el jugador. A su vez, está la posibilidad de compartir tus creaciones con el
+resto de jugadores del mundo para obtener una experiencia al estilo del
+propio Super Mario Maker.
+El editor es sencillo de utilizar y cuenta con la suficiente cantidad de
+opciones para la creación de niveles muy ricos en detalles, tanto simples
+como complejos y con mucha personalización. En esta guía, repasaremos
+lo más básico, algunas cosas avanzadas y de utilidad, y algunos tips y
+detalles extra.
+🎮 Mecánicas básicas
+La asociación de los controles depende del dispositivo y si se está
+jugando con teclado o con mando. El soporte es completo para ambas
+entradas, así como también es totalmente compatible con Steam Deck.
+Moverse. Rodar.
+Atacar. Ataque giratorio.
+Rodar + Atacar.
+Usar objetos pasivos. Usar objetos activos.
+Interactuar con objetos
+(hablar, levantar, lanzar,
+empujar, tirar…).
+Intercambiar objeto activo.
+⚙️ Opciones
+Cuando pasemos el juego, accederemos a un menú de pausa. Si miramos
+en la parte superior, a la derecha, tenemos las opciones.
+De aquí nos interesa la pantalla de “Settings”. El resto son para reanudar
+partida (arriba a la izquierda), volver a la pantalla de título (abajo
+izquierda) y salir del juego directamente (abajo derecha).
+● General.
+Configuración de aspectos del juego generales. Aquí hay cosas de
+interés como el intervalo de autoguardado, visualizar las guías de
+salas y objetos en el editor, velocidad de texto, idioma del juego, y
+otras opciones de accesibilidad.
+● Controls.
+Todo lo relacionado a la asignación de botones de mando y teclas
+de teclado de los controles del juego. Se recomienda trastear tras
+jugar un rato para acomodar lo que se necesite.
+● Video.
+Opciones del apartado visual del juego y renderizado del mismo.
+Pantalla completa, V-Sync, límite de FPS y resolución.
+● Audio.
+Aquí se encuentran las opciones del apartado sonoro. Varios
+indicadores de volúmen por separado y configuraciones sobre
+algunos sonidos y música.
+En general recomiendo echarle un vistazo al inicio a todos los apartados y
+ajustarlo a medida que vayas echando horas para dejarlo todo de
+acuerdo con tus preferencias. Algunas cosas son importantes para
+agilizar la creación de dungeons, sobre todo en el apartado de los
+controles, los atajos y demás serán muy útiles. merece la pena revisarlo.
+🐣 Primeros pasos
+🐥 Inicio
+Nada más dar comienzo el juego, nos
+encontraremos en una habitación en la que
+deberemos pulsar un botón y saltará nuestro
+personaje de la cama. Podemos acercarnos a
+otro personaje y hablarle para cambiarnos
+por él si así lo preferimos.
+Tras esto simplemente debemos salir de la
+casa y estaremos en Castle Town.
+🏰 Castle Town
+El hub principal del juego y contenedor de los puntos de interés del
+mismo y sus conjuntos de mecánicas.
+1. Tu casa.
+Aquí empiezas y de aquí sales a
+Castle Town.
+No es un lugar especialmente útil
+para nada, aunque si quieres
+jugar multijugador, debes ir aquí
+para conectar otro mando.
+2. Workshop.
+Desde aquí operamos todo lo
+importante respecto a la
+creación y publicación de
+Dungeons.
+Fuera está el tablón de anuncios,
+para jugar mazmorras creadas
+por otros jugadores.
+Dentro se encuentra la mesa de
+trabajo, donde comienza la
+magia. Será el lugar más
+recurrente del juego.
+3. Gem And I.
+Aquí reside Gemini, a quien le
+podremos llevar anillos sin
+identificar para que los
+identifique.
+Se trata de una de las
+localizaciones más importantes
+del juego, pues los anillos son
+objetos pasivos que dan gran
+accesibilidad al juego y permiten
+afrontar los retos de diferentes
+formas.
+4. Lucky 's Locks.
+Un lugar peculiar, al que se
+recurre de vez en cuando para
+sacar algunos anillos y mascotas.
+El dueño nos dará una llave de la
+suerte y podremos abrir un cofre.
+Si sale premio, bien, si no,
+deberemos esperar para
+intentarlo de nuevo 45 minutos
+de juego.
+5. Boo ‘n’ Moo.
+Esta chica aparecerá de forma
+aleatoria cada cierto tiempo, y
+nos propone un pequeño
+minijuego. Si lo ganamos, nos
+llevamos el premio.
+Normalmente anillos y alguna
+mascota. Cada 45 minutos de
+juego tiene una posibilidad de
+aparecer.
+6. Gabi 's Pet Care.
+El cuidador de mascotas. Si
+conseguimos alguna con los
+minijuegos previamente
+mencionados, podremos
+seleccionarla aquí para que nos
+acompañe durante nuestras
+aventuras.
+Son totalmente pasivas, es decir,
+cumplen función estética.
+Cuando conseguimos una
+mascota, ésta será solo un huevo,
+así que deberemos esperar a que
+eclosione primero para llevarla.
+7. Master Vu 's Dojo.
+Si bien no es un lugar de gran
+importancia, deberemos venir
+aquí primero antes de poder
+iniciar la creación de Dungeons.
+Esto es obligatorio.
+El maestro Vu nos enseña a usar
+una espada de forma básica, y
+tras ésto, nos hace entrega de
+una.
+Terminado su entrenamiento,
+podemos hacer un par de
+entrenamientos más avanzados
+para conseguir algún obsequio
+extra.
+No hay nada más que hacer aquí
+de momento.
+🛠️ Interfaz y mecánicas del editor
+Lo primero que deberemos hacer para acceder al editor es conseguir la
+espada en el Dojo del Maestro Vu.
+Una vez hecho esto, hemos de dirigirnos a la Workshop, donde estará el
+banco de trabajo, desde el cual podremos comenzar a crear nuestra
+propia Dungeon.
+También dentro del edificio habrá un señor mayor, el “Quest Master”. A él
+podemos consultarle algunas dudas respecto a la creación de Dungeons.
+Una vez interactuemos con la mesa de trabajo, se nos abrirá un menú
+similar al de la imagen de arriba, pero lo más probable es que sin ningún
+elemento en la lista central.
+Para comenzar a editar una nueva mazmorra, solo debemos pulsar en el
+botón de la esquina superior izquierda con el icono de “+”.
+El segundo icono de este menú nos muestra las Dungeons que hemos
+creado, mientras que el tercero aquellas que hayamos descargado de
+otros jugadores en caso de haberlo hecho.
+Ahora sí, vayamos a la creación de Dungeons.
+🧰 Barra de herramientas
+Nuestro elemento principal en pantalla una vez iniciemos el editor de
+Dungeons, así como el propio lienzo, del cual hablaremos más adelante.
+Por orden de izquierda a derecha, cada uno de sus componentes:
+● Parts.
+Nuestra herramienta principal. Hablaremos de ella en su propio
+apartado, y compondrá el grueso de esta guía. De momento
+debemos saber que aquí es donde se encuentran todas las piezas
+de construcción del editor de Dungeons.
+● Eraser.
+Un borrador para eliminar las cosas que hayamos colocado en el
+lienzo. El click derecho hace la misma función.
+● Eyedropper.
+Con esta herramienta podemos copiar una pieza en concreto que
+esté colocada en el lienzo, sea la que sea y tenerla lista para
+colocarla de nuevo en nuestro cursor y acceso rápido. Una
+herramienta muy útil para evitar andar abriendo el libro de partes
+más veces de la cuenta en busca de piezas concretas que ya hemos
+colocado.
+● Paint Bucket.
+Nos permite rellenar un área completa de un solo tipo de parte.
+Ahorra tiempo al rellenar el suelo de salas grandes, por ejemplo. Si
+se usa el selector, rellenará toda la zona seleccionada. Si no, lo hará
+de forma progresiva ampliando la zona donde se use.
+● Notepad.
+Herramienta para uso del creador. Permite escribir notas y dejarlas
+encima del lienzo en la zona que queramos. Es útil para destacar
+pasos que necesitas recordar en la creación de segmentos,
+planificar puzzles, etc.
+● Blueprints.
+Con esta herramienta podremos copiar segmentos de nuestra
+dungeon y guardarlos, de forma que podamos usarlos más adelante
+directamente. También podremos publicarlos para su uso por parte
+de otros jugadores.
+Para guardar un segmento, debemos seleccionar el área deseada
+con la herramienta de selección, y mantener el click pulsado hasta
+abrir su menú contextual
+● Selection.
+Lo usaremos para seleccionar áreas completas de nuestro lienzo e
+interactuar con todas las partes colocadas en su interior a la vez, o
+moverlas en conjunto.
+● Copy.
+Con esta herramienta marcada, cuando queramos mover una parte
+colocada en el lienzo de la Dungeon, en lugar de desplazarla,
+haremos una copia instantánea que conservará todas las
+configuraciones de la misma, la cual podremos colocar donde
+queramos. En combinación con el selector, permite copiar conjuntos
+enteros de partes.
+● Undo / Redo.
+Herramientas de retroceso de pasos. Permite deshacer un cambio, o
+rehacerlo. Los pasos se miden por cada interacción completa con el
+lienzo, es decir: si colocamos una parte, eso sería un cambio único;
+si colocamos un suelo entero manteniendo el click, eso sería otro
+cambio único.
+● Theme.
+Un selector de temática para la Dungeon. Determina la apariencia
+de casi todas las piezas que colocaremos en la dungeon, como una
+paleta. También cambia la música. Hasta ahora hay 6 tipos de
+Dungeon.
+○ Dewdrop Roots. Bosque.
+○ Sandswept Ruins. Desierto.
+○ Gustwind Palace. Viento.
+○ Deepcoral Cave. Agua.
+○ Moonlight Brambles. Terror / Otoño (variación de Dewdrop
+Roots).
+○ Emberstone Quarry. Cuevas / Magma.
+○ Coldfang Grotto. Nieve / Hielo.
+● Save.
+Guarda el progreso de creación de la Dungeon. El archivo resultante
+está localizado en la carpeta “Created Dungeons” de la raíz del
+juego.
+● Information.
+Configuración de la dungeon de forma general. Aquí determinamos
+el nombre, descripción, y otras configuraciones. Detallaremos este
+apartado más adelante brevemente.
+● Exit Dungeon.
+Botón para salir del editor.
+● Play / Playtest.
+Con este botón (o pulsando “Enter” directamente) podremos pasar
+del modo edición al modo prueba instantáneamente desde donde
+esté colocado nuestro jugador. Probablemente una de las cosas más
+recurrentes que realizaremos constantemente para probar
+mecánicas, salas, enfrentamientos, puzzles, etc. Que vayamos
+generando durante el proceso de creación.
+Si volvemos a pulsar “Enter” durante el modo prueba, volvemos al
+modo edición. Todos los cambios que ocurran durante la sesión de
+prueba, serán revertidos al finalizar, dejando la Dungeon en el
+estado inicial previo a entrar a dicho modo.
+📋 Dungeon Information
+En esta pantalla podremos configurar los parámetros generales de
+nuestra Dungeon, como el nombre visible al público de la misma, su
+descripción, y sus etiquetas.
+En la esquina superior derecha, tenemos el “thumbnail” de nuestra
+mazmorra. Ésta es modificada cada vez que pulsamos en el botón de
+Guardar en función a lo que la cámara del jugador tiene visible del lienzo.
+📌 Etiquetas
+Conjunto de normas o avisos de la configuración de la Dungeon. Hay de
+tres tipos.
+● Number of players.
+Para determinar el número de jugadores para los que está pensada
+la Dungeon. Si seleccionamos más de uno, deberemos completar la
+Dungeon una vez por cada conjunto de posibles jugadores; es decir:
+si habilitamos la etiqueta “Two-Player”, deberemos completar la
+mazmorra dos veces: una solos, y otra con dos jugadores.
+En caso de no disponer de dos jugadores, el juego nos permite jugar
+con un modo “marioneta”, en el que podemos cambiar de un jugador
+a otro, organizar al segundo jugador para que siga una serie de
+instrucciones, etc. De esta forma se pueden jugar y probar
+Dungeons multijugador sin necesidad de otras personas, aunque la
+experiencia no sea la misma.
+Realmente esto no limita el número de jugadores que pueden jugar
+una mazmorra en multijugador, pero si las etiquetas no lo indican,
+puede que un jugador acompañado sea incapaz de completar una
+mazmorra que no estaba pensada para varios jugadores, y
+viceversa.
+● Features.
+Reglas generales de la Dungeon. Puedes seleccionar tantas como
+quieras, o ninguna.
+○ Swordless.
+Deshabilita la espada al inicio de la Dungeon. Si le damos una
+espada al jugador durante la misma, podrá usarla sin
+problemas.
+○ Mapless.
+Inhabilita el mapa durante la Dungeon en su totalidad. De
+forma habitual, cuando inicias una partida, tienes un mapa
+vacío que se va rellenando según avanzas en las salas.
+Si el jugador recoge el objeto del mapa durante la mazmorra,
+se revela en su totalidad, marcando como transparentes las
+salas que aún no has visitado. Con esta opción, ese estado
+inicial del mapa no existe, y solo podrás revisarlo si consigues
+dicho objeto en la mazmorra.
+○ Ringless.
+Con esta opción deshabilitamos los anillos que el jugador
+traiga de fuera en la Dungeon. El jugador solo podrá usar
+aquellos anillos que coloquemos manualmente en la misma, y
+sólo dispondrá de ellos de forma temporal, durante la
+duración de ésta.
+○ One-Hit.
+El jugador dispondrá solamente de un golpe antes de morir.
+Interesante método para Dungeons más “hardcore”, aunque
+difícil de ajustar la dificultad de una alrededor de dicha
+opción.
+○ Friendly Fire.
+Habilita el daño entre jugadores al jugar en multijugador.
+○ Permadeath.
+Previene que en partidas multijugador, un jugador derrotado
+pueda revivir automáticamente.
+● Tags.
+Identificadores de la Dungeon. Permiten a los jugadores hacerse una
+idea de qué tipo de mazmorra van a enfrentar. Puedes seleccionar
+hasta tres a la vez.
+Lienzo
+Nuestro marco de trabajo. Aquí colocaremos todas las partes y
+dibujaremos la estructura de nuestra Dungeon.
+Cuando tenemos una parte seleccionada, con click izquierdo las vamos
+colocando en el lienzo. Si se trata de “tiles”, es decir, objetos de creación de
+terreno, suelo, etc. Se hace de forma gradual y automática según
+arrastramos el ratón manteniendo el click izquierdo, exactamente como
+dibujar en el lienzo.
+Los objetos específicos, enemigos, gizmos y otros actores se colocan de
+uno en uno. Éstos últimos, aquellos con un comportamiento específico,
+como por ejemplo los enemigos, consumen más recursos que el resto, por
+lo que no conviene abusar de ellos (digamos, +500 actores en una sala no
+es buena idea).
+Con click derecho borramos lo que hayamos colocado, y con click central
+y arrastrando, desplazamos la cámara por la Dungeon. Con la rueda del
+ratón hacemos zoom.
+También podemos desplazar la cámara con las teclas “W, A, S y D”, y
+hacerlo más rápidamente manteniendo “Shift”.
+📥Salas
+Las salas son las partes en que se separa nuestra Dungeon a nivel de
+“pantallas”. Es importante comprender este concepto y su funcionamiento
+pues será esencial cuando comencemos a crear y estructurar nuestras
+Dungeons.
+Solo una sala permanece cargada al mismo tiempo; es decir, los recursos,
+enemigos, y todos los objetos que hay en la sala en que nos encontramos,
+estarán activos, mientras que aquellos de otras salas, quedarán
+suspendidos en el tiempo hasta que entremos a las mismas.
+Cuando cambiamos de una sala a otra, ocurre una transición de cámara,
+cargando el contenido de la siguiente, y descargando el de la anterior.
+Cada sala tiene sus propias reglas y condiciones específicas, y no se
+comunican de una sala a otra. Hay muchas formas de condicionar el
+comportamiento de los objetos, lo permite hacer muchísimas cosas en
+una Dungeon, pues la mayoría de limitaciones son por cada sala.
+Para conectar dos salas completamente diferentes entre sí, usamos
+puertas. También se pueden usar puertas para abrir caminos entre
+paredes dentro de una misma sala.
+No existe un límite de salas ni de tamaño general de la Dungeon.
+🚧 Delimitaciones de las salas
+Una sala se delimita por el volumen que ocupa la suma de sus
+componentes, traducido principalmente al suelo de la misma, pues todas
+las partes que coloques en una Dungeon requiere un tipo de suelo
+existente debajo.
+La forma más sencilla de ver la delimitación de una sala es con la opción
+de los bordes de sala activada (Room Outlines). Ésto agregará un recuadro
+de color aleatorio alrededor de lo que el juego considera que es una sala
+completa.
+Es muy importante tener esto claro pues como hemos mencionado, las
+salas se comportan de manera individual, y mezclarlas sin querer haría
+que el juego considere que lo que esperamos que sean dos salas, solo
+sean una.
+La delimitación de las salas siempre será cuadrada. No pueden existir
+salas con formas que no sean completamente cuadradas. Esto no quiere
+decir que, nuestra sala no pueda tener un terreno caminable de diversas
+formas, pero los delimitadores, siempre serán cuadrados, por lo tanto,
+nuestras salas siempre ocuparán un espacio cuadrado.
+Es importante tener esto en cuenta para evitar enlaces indeseados entre
+salas. En el ejemplo de la imagen, de la derecha, las dos habitaciones son
+consideradas como una única sala por el juego.
+🏢 Plantas
+Las plantas a su vez, son conjuntos de salas anidadas en un mismo lienzo.
+Se podría decir que al cambiar de planta, cambias de “lienzo”, aunque no
+es realmente así del todo, pues las plantas inferiores y superiores están
+conectadas en cierta manera.
+Para cambiar de planta, podemos usar las flechas ubicadas en la parte
+superior del lienzo. También con las teclas “F”, para bajar, y “R”, para subir.
+Estas plantas se conectan entre sí mediante diferentes tipos de escaleras,
+agujeros, etc. Y permiten la navegabilidad de una a otra.
+Cada planta conecta con la inferior y superior con sus coordenadas
+exactas, por lo que la posición en la que estés editando en la planta “F2”,
+por ejemplo, conectará con la misma posición en “F1” y “F3”. Es necesario
+tenerlo en cuenta a la hora de planificar la estructura de la Dungeon, pues
+no queremos que se nos dificulte subir o bajar una planta cuando lo
+veamos necesario por estar el espacio ocupado por una sala con la cual
+no queremos hacer la conexión.
+Desde una planta superior, podremos ver las plantas inferiores a través de
+agujeros y vacíos. Solo podemos ver acumuladas hasta una planta debajo
+nuestra.
+Aun así, solo se renderizan elementos de terreno y cosas sencillas. Como
+puedes ver, las cajas y el jarrón no aparecen visiblemente desde la planta
+de arriba.
+💡 Iluminación
+Podemos asignar una iluminación a la sala, de manera que todo se vea
+más oscuro o claro.
+La forma de hacerlo es bastante sencilla: simplemente al agregar una
+parte como la antorcha de suelo o de pared, la sala tendrá una
+iluminación definida por el número de antorchas encendidas respecto al
+número total de antorchas en la sala.
+En otras palabras, si hay cuatro antorchas en toda la sala, y solo tres de
+ellas están encendidas, la iluminación de la habitación será de tres
+cuartas partes (¾) de la iluminación normal. Si todas están apagadas, la
+sala estará completamente oscura.
+Se puede configurar que una antorcha en concreto no contabilice para la
+iluminación global de la sala en sus propiedades. De esta manera, solo
+iluminará su radio de acción, y la sala seguiría estando oscura de así
+necesitarlo.
+📤 Elevaciones
+En una misma sala pueden existir dos elevaciones diferentes, esto es: dos
+alturas en las que colocar nuestras partes de la Dungeon.
+Podemos movernos entre elevaciones gracias a la parte de las escaleras,
+la cual colocamos en las paredes que separan una elevación de otra.
+También podemos descender a elevaciones inferiores saltando
+directamente el borde de la pared si no hay obstáculos que lo prevengan.
+Solo se pueden acumular estas dos elevaciones en una misma sala. Los
+objetos se adaptarán a la elevación en que hayan sido colocados
+tomando como referencia el suelo. Por lo general, es fácil distinguirlas
+pues el suelo de las elevaciones inferiores es más oscuro.
+Para iniciar una elevación inferior, solo debemos seleccionar el suelo de
+elevación inferior “Lowered Floor” del libro de partes y colocarlo.
+Hay que tener en cuenta que ocupará bastante espacio para solo un
+hueco de este suelo, pues tiene que construir dentro de la sala las
+paredes correspondientes a la elevación inferior. Normalmente para
+colocar un espacio en una elevación inferior, se requiere un espacio de 5 x
+5 espacios libres.
+Las puertas y otras conexiones entre salas que coloquemos en una
+elevación inferior, solo pueden estar conectadas a otras elevaciones
+inferiores, incluso cuando es una escalera para cambiar de planta.
+💧 Nivel del agua
+Existe un tipo de interruptor que permite elevar el nivel del agua,
+inundando por completo la elevación inferior en toda la planta, no solo en
+la sala en que te encuentras.
+Todas las salas de la planta en la que estemos se verán afectadas, pero no
+lo harán las de otras plantas diferentes a la actual. Es importante que
+recordemos este comportamiento para tenerlo en cuenta, pues se genera
+un cambio drástico en cómo se resuelve la Dungeon a la hora de inundar
+o no la planta.
+Como hemos dicho, solo inunda la elevación inferior de la misma planta,
+no la superior.
+Cuando una sala está inundada, podremos nadar por el agua si
+disponemos de unas aletas, e incluso bucear para pasar por puertas
+sumergidas o recoger otros objetos, pasar por debajo de los puentes, etc.
+🧊 Congelación.
+En el juego, hay varios objetos que pueden ser congelados. Éstos no
+podrán ser utilizados hasta ser descongelados por algún medio.
+Cuando un objeto que normalmente no tendría peso, es congelado,
+adquiere la propiedad del peso; esto significa que es capaz de accionar
+botones de peso. Los enemigos también pueden ser congelados y
+desplazados mientras permanecen inmóviles.
+Cuando un enemigo está congelado, no recibe daño de la espada, pero
+pueden ser atacados con el martillo, lo cual los descongelará, al igual que
+el fuego.
+💊 Estados alterados
+Estados alterados
+En Quest Master existen varias formas de causar estados alterados en
+jugadores y enemigos con las herramientas y objetos varios de que
+disponemos. A su vez, existen enemigos capaces de infringirlos.
+Estos estados afectan tanto a jugadores como enemigos, aunque en
+ocasiones de forma diferente.
+Maldición
+Impide utilizar la espada
+durante un breve periodo
+de tiempo.
+Miedo
+Los enemigos afectados
+huyen de los jugadores
+atemorizados durante un
+breve periodo de tiempo.
+Quemadura
+Te hace correr sin
+pausa por un
+breve periodo de
+tiempo.
+Quemadura
+Inflige daño adicional a
+los enemigos.
+R
+a
+l
+e
+n
+t
+í
+/
+F
+r
+í
+o
+R
+a
+l
+e
+n
+tiz
+a
+t
+u
+s
+a
+c
+cio
+n
+e
+s
+t
+e
+m
+p
+o
+r
+a
+l
+m
+e
+n
+t
+e. El fuego y la luz del s
+o
+l
+t
+e
+d
+e
+v
+u
+e
+lv
+e
+n
+a
+l
+a
+n
+o
+r
+m
+a
+lid
+a
+d. Si te vuelves a enfria
+r
+e
+n
+e
+s
+t
+e
+e
+s
+t
+a
+d
+o, t
+e
+c
+o
+n
+g
+e
+l
+a
+s
+p
+o
+r
+c
+o
+m
+p
+l
+e
+t
+o
+p
+o
+r
+u
+n
+p
+e
+rio
+d
+o
+d
+e
+tie
+m
+p
+o. C
+o
+n
+g
+e
+l
+a
+ció
+n
+L
+o
+s
+e
+n
+e
+mig
+o
+s
+q
+u
+e
+d
+a
+n inmovilizados
+c
+o
+m
+p
+l
+e
+t
+a
+m
+e
+n
+t
+e
+p
+o
+r
+u
+n
+p
+e
+rio
+d
+o
+d
+e
+tie
+m
+p
+o
+p
+r
+o
+l
+o
+n
+g
+a
+d
+o. El fuego los desco
+n
+g
+e
+l
+a. Durante este estado, no pueden recibir daño de la espada, aunque los ataques contundentes y de fuego son mortales. Aturdimiento
+N
+o
+p
+u
+e
+d
+e
+s
+m
+o
+v
+e
+r
+t
+e
+ni atacar por un breve periodo de tiempo. A
+t
+u
+r
+dimie
+n
+t
+o
+E
+l
+e
+n
+e
+mig
+o
+n
+o
+p
+u
+e
+d
+e
+m
+o
+v
+e
+r
+s
+e
+ni a
+t
+a
+c
+a
+r
+p
+o
+r
+u
+n
+b
+r
+e
+v
+e
+p
+e
+rio
+d
+o
+d
+e
+tie
+m
+p
+o.
+💍 Anillos
+Anillos
+Se trata de una suerte de elementos equipables pasivos, que ofrecen
+variadas opciones de accesibilidad para los jugadores. Se pueden
+visualizar y equipar desde el menú de pausa.
+Los jugadores pueden equiparse anillos antes de entrar en una Dungeon,
+aunque también pueden cambiarlos una vez dentro a placer. Como
+máximo se puede tener equipado un anillo desde el principio, y dos si
+consigues la mejora de la caja de anillos.
+Puedes colocar en tu Dungeon todos los anillos que hayas conseguido
+para que cualquier jugador pueda usarlos durante la misma en caso de
+no tenerlo. Esto es muy útil en combinación con la opción “Ringless” de las
+mazmorras para generar experiencias más personalizadas.
+Los anillos disponibles para colocar estarán dispuestos en el Libro de
+Partes.
+Obtención
+Para obtener anillos nuevos, deberás participar en los minijuegos de
+Castle Town. De momento tenemos el minijuego de Lucky 's, y el de Boo &
+Moo.
+Lucky’s Locks
+Sencillo minijuego en que nos
+otorgarán una llave y probaremos
+suerte abriendo cofres en la
+trastienda.
+Lucky nos dará una llave por cada 45
+minutos que hayamos pasado
+jugando o creando alguna mazmorra,
+por lo que siempre que te tomes un
+descanso, conviene echarle un
+vistazo.
+También se pueden ganar huevos de
+mascotas en este minijuego.
+Boo & Moo
+Minijuego simple en el que Boo nos
+esconderá un premio en unos vasos y
+los moverá.
+Si le sigues la pista al correcto y lo
+levantas, te llevas el premio, que
+puede ser un anillo, o también huevos
+de mascota.
+Boo & Moo puede aparecer cada 45
+minutos de juego, así que lo mismo,
+hay que echarle un ojo de vez en
+cuando al descansar de hacer una
+Dungeon.
+A veces, durante eventos, es
+sustituida aleatoriamente por otro
+visitante que, proponiendo el mismo
+tipo de minijuego, te ofrece una serie
+de premios limitados.
+Una vez obtenidos los anillos, no se pueden usar tal cual. Deberás
+llevarlos a Gemini, dueño del Gem and I, para que los identifique. Hecho
+esto, se queda guardado y utilizable.
+Cuando reúnes un total de diez anillos, puedes conseguir del propio
+Gemini la caja grande de anillos, que te permite llevar hasta dos anillos al
+mismo tiempo.
+Lista de anillos
+Symbol Ring No tiene ningún efecto.
+Steady Ring
+Previene el knockback al
+recibir daño.
+Fairy Ring
+Permite llevar dos hadas
+al mismo tiempo.
+Charge Ring
+Reduce a la mitad el
+tiempo de carga del
+ataque giratorio.
+Hero Ring
+Duplica el daño recibido.
+Prohíbe que aparezcan
+corazones.
+Vampire’s Ring
+Restaura vida al derrotar
+enemigos.
+Lucky Ring
+Aumenta la suerte en los
+minijuegos de suerte y en
+otros aspectos ocultos
+del juego.
+Critical Ring
+Todos tus golpes fallan,
+pero hay una
+probabilidad de derrotar
+al enemigo de un solo
+golpe.
+Ghost Ring
+Duplica el tiempo de
+invulnerabilidad tras ser
+golpeado.
+Cursed Ring
+Hace que todo el daño
+recibido solo te reste ⅜ de
+corazón.
+Heart Ring
+Duplica los corazones
+que aparecen.
+Safe Ring
+Duplica la defensa,
+disminuye el ataque a la
+mitad.
+Health Ring
+Regenera el corazón
+actual lentamente.
+Risky Ring
+Duplica el ataque,
+disminuye la defensa a la
+mitad.
+Fire Ring
+Previene el estado
+quemado.
+Mud Ring
+Reduce el daño por caer
+en fango.
+Lava Ring
+Reduce el daño por caer
+en lava o venenos.
+Water Ring
+Reduce el daño por caer
+al agua.
+Blast Ring
+Te protege del daño de
+tus propias explosiones.
+feathered Ring
+reduce el daño al caer al
+vacío.
+Spin Ring
+Permite atacar dos veces
+con un ataque giratorio
+cargado.
+Shaman Ring
+Previene el estado de
+maldición.
+Ice Ring
+Previene el estado de
+enfriamiento.
+Grip Ring
+Previene el deslizamiento
+al caminar sobre hielo.
+📖 Libro de partes
+Libro de partes
+Nuestra paleta principal de elementos para colocar en el lienzo de la
+Dungeon. Está completamente separada por categorías. Con más de 250
+partes diferentes, y combinables de infinitas formas, las posibilidades son
+prácticamente ilimitadas.
+No existe ningún límite de partes a colocar en la Dungeon, así que en
+esencia podemos hacerlas tan grandes como imaginación pura y dura
+tengamos.
+El rendimiento tampoco decae prácticamente nada independientemente
+de cuántas salas llenas de partes haya en la dungeon, pues el juego
+esencialmente solo carga una sala a la vez, y como hemos dicho
+anteriormente, para que el rendimiento de una sala decaiga, habría que
+abusar de forma excesivamente masiva de actores como enemigos, por
+ejemplo.
+Terrain
+Se trata de las partes que modelan la forma de las salas, conexiones entre
+éstas, puertas, algunas decoraciones de terreno…
+Ground
+Son aquellas que podemos colocar dibujando sin soltar el ratón en el
+suelo de diferentes formas. Por lo general no tienen ningún
+comportamiento lógico ni menú contextual. Son cien por cien estáticas y
+no suponen nada para el rendimiento del juego.
+Floor Terreno sólido en el que
+puedes caminar.
+Lowered Floor
+Terreno sólido que
+genera suelo en una
+elevación inferior y en el
+que es seguro caminar.
+Puedes caer en él desde
+una elevación superior de
+la misma sala.
+Fissured Floor
+Terreno frágil que se
+romperá al quedarte
+sobre él o con
+explosiones.
+Si hay una planta inferior
+debajo y tiene terreno
+caminable, caerás en ella
+sin recibir daño.
+Hole Te puedes caer en él y
+recibirás daño.
+Si hay una planta inferior
+debajo y tiene terreno
+caminable, caerás en ella
+sin recibir daño.
+Water
+Superficie que causa
+daño si caes en ella, y
+puedes navegar con
+aletas.
+La mayoría de objetos se
+hunden en ella. Algunos,
+en cambio, forman
+caminos sobre la misma.
+Lava
+Superficie que causa
+daño si caes en ella.
+La mayoría de objetos se
+hunden en ella. Algunos,
+en cambio, forman
+caminos sobre la misma.
+Decorative Floor
+Decoración de terreno.
+Puedes caminar sobre
+ella.
+Grating
+Se puede colocar sobre el
+terreno normal y terrenos
+peligrosos. Puedes
+caminar sobre ella.
+Las plataformas móviles
+pasan por debajo de
+ellas.
+Floor Overlay
+Decoración de terreno
+tipo alfombra. Puedes
+caminar sobre ella.
+Solid Decoration Decoración sólida.
+La forma que tendrá
+depende de dónde lo
+coloques.
+Fence Valla sólida. No puedes
+saltar sobre ella.
+Permite lanzar objetos
+por encima de ella. Los
+objetos voladores
+también pueden pasar.
+Mud
+Te hundes en él,
+recibiendo daño.
+Puedes correr por encima
+de él con las botas de
+Hermes.
+Ice Superficie resbaladiza.
+Navigation
+Partes encargadas de la navegación de la dungeon. Puertas y escaleras
+principalmente para cambiar de sala o planta.
+Entrance
+La entrada de la
+Dungeon. Desde aquí
+comienzan la partida los
+jugadores.
+Solo puede haber una.
+Open Door Una puerta abierta.
+Conecta salas entre sí.
+Al colocarla, creará una
+salida donde le sea
+posible en línea recta.
+Puede hacerse invisible.
+Closed Door
+Puerta cerrada. Se debe
+abrir mediante
+mecanismos.
+Puedes ponerle
+condiciones para
+determinar si se abre o se
+cierra al cumplirlas.
+Admite condiciones.
+Puede hacerse invisible.
+Locked Door
+Puerta bloqueada con un
+agujero para introducir
+una llave.
+Requiere usar una llave
+para abrirla. Tras ello,
+queda abierta
+permanentemente.
+Puede activar
+condiciones al abrirla.
+Puede hacerse invisible.
+Waterfall Door
+Una puerta oculta tras
+una cascada. Se puede
+dilucidar su sombra.
+Puede hacerse invisible.
+Big Door
+Puerta de gran tamaño
+con un agujero de llave
+grande.
+Requiere una llave grande
+para abrirla.
+Puede activar
+condiciones al abrirla.
+Puede hacerse invisible.
+Cracked Wall
+Muro destruible capaz de
+convertirse en un
+pasadizo. Funciona como
+una puerta.
+Se debe destruir
+mediante explosiones
+para poder atravesarlo.
+Puede activar
+condiciones al abrirlo.
+Puede hacerse invisible.
+Upward Stairwell Te lleva a la planta
+superior.
+Puede hacerse invisible
+Downward
+Stairwell
+Te lleva a la planta
+inferior.
+Puede hacerse invisible
+Upward Ladder
+Te lleva a la planta
+superior. Se puede
+colocar en medio de una
+sala.
+Downward Ladder
+Te lleva a la planta
+inferior. Se puede colocar
+en medio de una sala.
+Walls
+Partes que sirven para colocarlas en las paredes.
+Staircase
+Escalera que sirve para
+cambiar de elevación. Se
+coloca en paredes entre
+elevaciones.
+Puedes estirarla si
+arrastras el ratón
+mientras la colocas.
+Slide
+Rampa que no te permite
+subir a menos que tengas
+las Botas de Hermes, pero
+sí bajar por ella.
+Puedes estirarla si
+arrastras el ratón
+mientras la colocas.
+Falls
+Decoraciones en forma
+de cascadas de
+diferentes tipos. Se deben
+colocar en una pared.
+Puedes estirarlas si
+arrastras el ratón
+mientras las colocas.
+Decoration
+Aquí encontraremos unas cuantas opciones para agregar decoración a
+nuestra Dungeon.
+Ground
+Principalmente follaje, que colocas en el suelo o agua.
+Tall Decoration
+Decoración de suelo que
+se coloca encima de
+superficies caminables.
+Puedes arrastrar el ratón
+para colocarlas como
+cualquier terreno.
+Reed Decoración acuática. Solo
+puede colocarse en agua.
+Puedes arrastrar el ratón
+para colocarlas como
+cualquier terreno.
+Flowers Decoración de suelo tipo
+flor. Es indestructible.
+Rug Decoración tipo alfombra.
+Puedes hacerla más
+grande arrastrando el
+ratón al colocarla.
+Walls
+Decoraciones para las paredes de la mazmorra.
+Window
+Decoración con forma de
+ventana.
+Wall Fountain
+Decoración con forma de
+pequeño flujo de agua
+saliente de una pared.
+Simple Wall
+Decoration
+Decoración sencilla de
+pared. Ocupa uno de
+ancho.
+Decorative Shield Decoración de pared con
+forma de escudo.
+Items
+Todo aquello que compone la jugabilidad de la mazmorra en cuanto a
+mecánicas disponibles para el jugador. Aquí empezaremos a ver algunas
+cosas respecto a condiciones, resolución de puzzles, mecánicas de los
+objetos… Tenemos llaves, herramientas, objetos pasivos, monedas, entre
+otros.
+Container
+Partes que sirven principalmente para mantener otras partes,
+principalmente objetos y herramientas.
+Chest
+Se pueden colocar
+objetos dentro. El jugador
+los obtendrá tras abrirlo.
+Puedes poner casi
+cualquier cosa dentro,
+incluso enemigos.
+También puedes cambiar
+su orientación.
+Puede activar
+condiciones al abrirse.
+Admite condiciones.
+Puede hacerse invisible.
+Shared Chest
+Los objetos colocados en
+este cofre se reparten a
+todos los jugadores en la
+Dungeon.
+Puede activar
+condiciones al abrirse.
+Admite condiciones.
+Puede hacerse invisible.
+Big Chest Un cofre normal pero más
+grande.
+Puede activar
+condiciones al abrirse.
+Admite condiciones.
+Puede hacerse invisible.
+Pedestal
+Puedes poner cualquier
+objeto en él para que el
+jugador los recoja.
+Puede activar
+condiciones al abrirse.
+Admite condiciones.
+Coin Pedestal
+Recoger objetos de él
+cuesta dinero.
+Puedes elegir la cantidad
+de dinero que cobra.
+Puede activar
+condiciones al abrirse.
+Admite condiciones.
+Sword Pedestal
+Un pedestal en el que
+sólo puedes introducir la
+espada o una rama de
+árbol.
+Si tu Dungeon es
+“Swordless” puedes darle
+una espada al jugador en
+ella colocando uno de
+estos con una dentro.
+Puede activar
+condiciones al abrirse.
+Admite condiciones.
+Shape Socket
+Pedestales en los que
+encajan las gemas de las
+formas correspondientes.
+Debes acercarte a ellos
+para insertarlas mientras
+las mantienes sobre la
+cabeza.
+Las gemas pueden ser
+colocadas y retiradas.
+Puede activar
+condiciones al colocar la
+gema en ellos.
+Tools
+Herramientas activas del juego. El núcleo de las opciones de jugabilidad y
+mecánicas para el jugador junto con los objetos pasivos más adelante. Se
+emplean con el botón designado a objetos activos.
+Fire Rod
+Permite al jugador lanzar
+proyectiles de fuego.
+Los proyectiles de fuego
+encienden antorchas
+apagadas y activan otros
+mecanismos a distancia.
+Admite condiciones.
+Tornado Rod
+Se utiliza para generar
+tornados que te elevan
+por los aires, a ti y a tus
+enemigos.
+Admite condiciones.
+Color Rod
+Varita capaz de cambiar
+la polaridad de los
+interruptores de color a
+distancia.
+Admite condiciones.
+Spectral Rod
+Lanza proyectiles
+espectrales que revelan
+objetos invisibles.
+Los proyectiles
+espectrales infligen el
+estado de terror en los
+enemigos impactados.
+Admite condiciones.
+Ice Rod
+Con esta varita se pueden
+crear bloques de hielo
+sólidos que podremos
+empujar.
+Admite condiciones.
+Bombs
+Objeto arrojadizo que
+causa una explosión tras
+un tiempo desde su uso.
+Las bombas de todo tipo
+pueden activar
+interruptores de peso.
+Admite condiciones.
+Remote Bombs
+Una bomba que puede
+ser explotada en
+cualquier momento de
+forma remota.
+Pulsa de nuevo el botón
+del objeto para detonarla. Admite condiciones.
+Boomerang
+Herramienta lanzable que
+retorna tras recorrer
+cierta distancia.
+Permite aturdir enemigos
+y agarrar algunos objetos
+a distancia.
+Admite condiciones.
+Flame Boomerang Un boomerang que
+siempre está incendiado.
+Los boomerangs de todo
+tipo acaban con los
+murciélagos de un único
+golpe.
+Admite condiciones.
+Spectral
+Boomerang
+Boomerang con
+capacidades espectrales.
+Revela objetos invisibles y
+atemoriza a los enemigos
+que impacta.
+Admite condiciones.
+Ice Boomerang Boomerang impregnado
+del poder del hielo.
+Congela enemigos,
+superficies de agua, entre
+otros.
+Admite condiciones.
+Hammer
+Arma versátil que permite
+atacar a corta distancia,
+aturdir y aplastar los
+tocones de madera.
+Los spikadillos pueden
+ser volteados si golpeas
+el suelo cerca de ellos,
+dejándolos vulnerables.
+Admite condiciones.
+Grappleshot
+Gancho lanzable que
+permite al jugador
+engancharse a ciertos
+objetos.
+También puedes atraer
+algunos objetos con él. Admite condiciones.
+Passive
+Se emplean automáticamente o con los botones para objetos de
+actuación pasiva. Generalmente enfocados a la movilidad en diferentes
+medios, activación de mecanismos, defensa, etc.
+Lantern
+Sirve para ampliar el área
+de luz del jugador en
+zonas oscuras y encender
+antorchas apagadas.
+Admite condiciones.
+Spectral Lantern
+Igual que la linterna
+normal, pero también
+permite ver todo tipo de
+cosas invisibles al
+acercarte a ellas.
+Admite condiciones.
+Freezeflame
+Lantern
+Feather
+Permite al jugador
+efectuar un salto.
+Si ruedas y saltas, podrás
+saltar más lejos. Admite condiciones.
+Shovel Utilizado para cavar
+agujeros en el suelo. Admite condiciones.
+Plank Shield
+Escudo básico que te
+protege de proyectiles y
+ataques enemigos.
+Se rompe al sufrir una
+explosión o quemarse
+con fuego.
+Admite condiciones.
+Metal Shield
+Escudo resistente ante
+cualquier cosa. Admite condiciones.
+Mirror Shield
+Escudo capaz de reflejar
+proyectiles enemigos.
+Es útil para contraatacar
+y para activar
+mecanismos
+aprovechando el rebote.
+Admite condiciones.
+Hermes Boots
+Permiten al jugador
+correr en línea recta, a
+cambio de tener menos
+control de dirección.
+Si golpeas un pilar
+mientras corres, dejará
+caer un objeto que tenga
+sobre él.
+Admite condiciones.
+Sailcloth
+Objeto principal para la
+maniobrabilidad aérea.
+Permite planear por un
+periodo de tiempo.
+Se puede combinar con
+objetos que te permiten
+saltar para usarlo en
+cualquier momento.
+Admite condiciones.
+Sword
+Espada. La usas para
+atacar. Si no se especifica
+lo contrario, siempre
+comienzas con ella.
+Admite condiciones.
+Tree Branch
+Sustituye a la espada, y
+es capaz de hacer el
+doble de daño que ésta,
+pero se rompe al golpear
+cualquier cosa.
+Admite condiciones.
+Pouch
+Objeto pasivo que te
+permite llevar dos objetos
+activos a la vez y alternar
+entre ellos directamente.
+Admite condiciones.
+Flippers
+Aletas para nadar en el
+agua. Si pulsas el botón
+del objeto pasivo, te
+permite bucear también.
+Se pueden elaborar mil
+situaciones y puzzles
+acuáticos gracias a ellas.
+Admite condiciones.
+Silver Gauntlet
+Guanteletes que permiten
+levantar y empujar
+objetos pesados.
+También permiten tirar de
+palancas de las de tirar
+que tienen mayor
+tamaño.
+Admite condiciones.
+Golden Gauntlet
+Mejora de los guanteletes
+de plata. Permiten
+levantar y empujar
+objetos muy pesados.
+También permiten tirar de
+palancas de las de tirar
+que tienen gran tamaño.
+Admite condiciones.
+Health
+Conjunto de objetos dedicados a la restauración o ampliación de salud
+del jugador. Muy importantes para balancear la dificultad de una
+Dungeon en que abunda el combate.
+Heart
+Recuperan un corazón
+completo al recogerlos. Admite condiciones.
+Fairy
+Se mantienen junto al
+jugador y lo reviven si es
+derrotado.
+Si ya tienes una y agarras
+otra, ésta solo te curará y
+se irá.
+Admite condiciones.
+Heart Fragment Te recupera toda la salud
+al recogerlo.
+Si reúnes 4 aumentarás
+tu salud máxima durante
+la Dungeon.
+Admite condiciones.
+Heart Crystal
+Te cura completamente y
+aumenta tu salud máxima
+durante la Dungeon.
+Si juegas con reglas
+“One-Hit”, esto la
+sobrepasará y te dejará
+tener más salud.
+Admite condiciones.
+Collectable
+Coleccionables que pueden ser recogidos por el jugador. Entre ellos se
+encuentra la gema que dictamina el final de la Dungeon.
+Sword Coin
+Coleccionable común que
+puede esconderse en
+cualquier sitio. En la
+Dungeon aparece un
+contador de cuántas hay.
+Se puede usar para
+comprar objetos en
+pedestales que pidan
+monedas.
+Admite condiciones.
+Shield Coin
+Similares a las anteriores,
+pero estas actúan solo en
+la sala en la que están,
+activando un mecanismo
+al recogerlas todas.
+Admite condiciones.
+Exit Gem
+El objetivo final del
+jugador. Si recoges esta
+gema, finalizas la
+Dungeon.
+Suele ponerse tras un
+Jefe o un puzle complejo
+al final de la Dungeon.
+Solo puedes poner una.
+Admite condiciones.
+Navigation
+Objetos clave para avanzar durante la Dungeon, permitiendo abrir
+puertas, activar algunos mecanismos u orientarte por la misma.
+Key
+Permite abrir puertas y
+bloques con agujeros
+para llaves.
+Al recogerla, te sigue
+durante toda la Dungeon
+hasta que la uses. Puedes
+llevar varias.
+Admite condiciones.
+Big Key
+Se usa para abrir puertas
+grandes. Debe ser llevada
+a mano.
+Este objeto pesa, y hace
+daño al lanzarlo contra
+enemigos.
+Admite condiciones.
+Map
+Te completa el mapa de la
+Dungeon marcando por
+dónde has pasado y
+dónde no.
+Útil si quieres que el
+jugador estime los
+caminos de antemano y
+la longitud de la Dungeon.
+Admite condiciones.
+Compass
+Marca la localización de
+cofres y otros objetos en
+el mapa.
+Si entras en una sala con
+algo por resolver que
+otorgue algún premio
+oculto, hará un sonido.
+Admite condiciones.
+Shape Gems
+Se introducen en los
+huecos de sus
+correspondientes formas
+para la activación de
+mecanismos.
+Deben llevarse a mano.
+Estas gemas pesan y
+hacen daño a los
+enemigos al lanzarlas
+contra ellos.
+Admite condiciones.
+Hazards
+Conjunto general de obstáculos del juego. Todo aquello que compone el
+núcleo de adversidad y dificultad de las Dungeons. Tenemos desde
+enemigos, jefes, trampas… Hay que usarlos con cabeza.
+Enemies
+El principal y más típico obstáculo en el camino de los jugadores. Tienen
+diferentes inteligencias artificiales y patrones de conducta. Abarcan
+diferentes terrenos y tienen distintas estadísticas.
+Slumberwing
+Enemigo volador que se
+desplaza por el aire
+diagonalmente.
+Fácil de derrotar, aunque
+en altas cantidades
+pueden atosigar
+bastante.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Red Shellshot Enemigo lento que
+dispara proyectiles.
+Puedes asignarle
+distintos tipos de
+proyectiles.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Blue Shellshot
+Resiste más que su
+contraparte roja. Dispara
+en las cuatro direcciones.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Slink
+Serpiente que se lanzará
+hacia ti cuando entres en
+línea con su campo de
+visión.
+Pueden venir desde muy
+lejos si te cruzas en frente
+suya, aunque no resisten
+mucho.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Slither
+Es más rápido que el
+Slink y más duradero.
+También más dañino.
+Junto con los Slink,
+pueden empujarte si van
+hacia ti, además de
+hacerte daño.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Clutch Claw Se desplaza en cruz.
+Puedes colocarle objetos
+y otros enemigos encima.
+Además es resistente.
+Puede activar
+condiciones al ser
+derrotado.
+Twitch-Bone
+Enemigo resistente que
+intenta esquivar los
+ataques directos del
+jugador saltando.
+Pueden ser empujados
+con facilidad al vacío.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Squirm
+Estos enemigos se
+desplazan erráticamente
+por la sala, rebotando en
+las paredes.
+Son algo resistentes pero
+fáciles de golpear en
+espacios estrechos
+debido a su tamaño.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Goozling
+Clásico “slime” que
+atacará al jugador dando
+saltos hacia él.
+Es bastante predecible. Si
+le atacas saldrás
+rebotado ligeramente.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Goozer
+Versión grande y fuerte
+del Goozling. Hace más
+daño y aguanta mucho
+más.
+Puede tener enemigos y
+objetos dentro, e incluso
+tragarse otros si los
+aplasta saltando.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Spikadillo
+Enemigo complejo y
+resistente. Es invulnerable
+a la mayoría de ataques.
+Debes hacer que choque
+y aprovechar el
+aturdimiento para
+lanzarlo al agua, lava o
+vacío.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Shadow Clones
+Sombras de los
+personajes protagonistas
+del juego.
+Se mueven similar a como
+lo haría el jugador, y son
+capaces de usar todo
+tipo de objetos.
+Pueden emplear
+cualquier objeto que les
+agregues, y pueden usar
+muchos objetos
+diferentes a la vez.
+Por lo general es un
+enemigo duro y
+relativamente resistente.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Zorb
+Pequeño fantasma que se
+teletransporta y lanza
+proyectiles.
+Por separado no suponen
+una amenaza, pero te
+pueden acorralar.
+Puedes colocarlos en
+diferentes alturas.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Mimic
+Enemigo que imita una
+mina. Si te acercas saldrá
+corriendo erráticamente.
+Si chocas con él, explota.
+Es invencible a los
+ataques normales, así
+que mejor aléjate de él si
+se despierta.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Freezlide
+Sigue al jugador
+lentamente. Si lo golpeas,
+se desliza a toda
+velocidad.
+-
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Fire variants
+Estos enemigos
+quemarán al jugador al
+entrar en contacto con él.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Golden variants
+Versiones mucho más
+dañinas y resistentes que
+sus contrapartes
+habituales.
+Algunos de estos
+enemigos son
+extremadamente duros.
+Ten cuidado de abusar de
+ellos en cantidad cuando
+los emplees.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones
+(excepto el Clutch Claw).
+Spectral Variants
+Versiones espectrales
+capaz de infringir
+maldiciones al jugador.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones
+Ice Variants Versiones imbuidas con el
+poder del hielo.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones
+Bosses
+Jefes básicos que agrega el juego. Son más fuertes que la mayoría de
+enemigos. Excepto el Golmec Roto.
+Lyrm
+Similar al Squirm, pero
+gigante. Se desplaza
+erráticamente y solo
+puede ser atacado en la
+cola.
+Aguanta varios golpes, y
+tras cada uno, se
+enfurece por un tiempo,
+siendo invulnerable.
+Cuando está a punto de
+ser derrotado, siempre
+estará enfurecido, pero
+esta vez será posible
+golpearle.
+Su daño no es enorme
+pero puede acorralar y
+asestar varios golpes
+fácilmente.
+Rebota bruscamente en
+todo tipo de paredes y
+obstáculos.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Enraged Lyrm
+Versión siempre
+enfurecida del Lyrm.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Golmec
+Enemigo gigante de roca
+que puede hacer gran
+daño aplastando al
+jugador y todo lo que
+tenga debajo.
+Se desplaza siempre en
+dirección al jugador.
+Solo puede ser dañado
+en la gema de la espalda.
+Tras golpearlo, se
+enfurece por un tiempo,
+dando varios saltos más
+rápidamente.
+Podemos agregarle algún
+objeto o enemigo, de
+manera que cuando salte
+enfurecido, los hará caer
+del techo en grupos.
+Golmec es capaz de
+romper objetos que
+normalmente podrías
+destruir con explosiones.
+También aplica el peso
+máximo a todo tipo de
+interruptores de peso.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Enraged Golmec
+Versión siempre
+enfurecida y siempre
+golpeable del Golmec.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Broken Golmec No hace nada. Puede
+usarse como decoración
+Lunarc
+Enemigo invencible capaz
+de derrotarte con un solo
+golpe de su guadaña.
+No es muy rápido, pero si
+te alcanza, se acabó.
+Destruye toda suerte de
+objetos destruibles a
+guadañazos.
+Admite condiciones.
+Zorbius
+Versión mejorada de los
+Zorb capaz de hacer
+variedad de ataques
+consistentes en lanzar
+múltiples proyectiles.
+Se teletransporta por la
+sala después de cada
+ataque.
+Si le haces suficiente
+daño, comenzará a
+cargar ataques circulares
+de muchos proyectiles.
+Es muy resistente, y
+también puedes
+agregarle cualquier tipo
+de proyectil para que lo
+use contra los jugadores.
+Puede activar
+condiciones al ser
+derrotado.
+Admite condiciones.
+Traps
+Trampas y objetos que dañan al jugador. Pueden ser activados por
+mecanismos y colocados estratégicamente para dificultar la resolución de
+puzzles, aunque también se pueden utilizar como herramientas para
+resolver los mismos, ya que algunas pueden activar interruptores.
+Floor Spikes
+Trampa básica de suelo.
+Si caminas sobre ella,
+recibes daño.
+Admite condiciones.
+Arrow Trap
+Trampa que lanza flechas
+y otros proyectiles a
+intervalos fijos
+configurables.
+Puedes hacer que lance
+todo tipo de proyectiles. Admite condiciones.
+Wooden Trapdoor
+Deja caer al jugador
+cuando se coloca encima
+de ella.
+Si requiere una condición
+para abrirse, se
+mantendrá cerrada aun si
+el jugador la pisa.
+Admite condiciones.
+Metal Trapdoor
+Requiere cierto peso para
+dejar caer lo que tenga
+encima.
+Previene que camines
+sobre ellas con objetos
+pesados sobre tu cabeza.
+Admite condiciones.
+Rolling Spike Trap
+Trampa de espinas que
+rueda de un lado a otro.
+Es muy dañina. Puede
+activar interruptores de
+peso.
+Admite condiciones.
+Lit Bomb
+Bomba encendida y a
+punto de explotar.
+Puedes configurar el
+tiempo hasta la explosión. Admite condiciones.
+Mine
+Una mina. Si te acercas,
+hace un pitido. Si la tocas,
+explota.
+Puede activar
+condiciones al explotar.
+Admite condiciones.
+Blade traps
+Obstáculos de tipo cuchillas deslizantes. Tienen distintos
+comportamientos dependiendo de cuál uses. Pueden activar algunos
+interruptores.
+Reactive Blade
+Trap
+Cuchilla giratoria que se
+lanza a por el jugador
+que entre en
+perpendicular con su
+horizontal o vertical.
+Admite condiciones.
+Directional Blade
+Trap
+Esta cuchilla irá de un
+lado a otro por la ruta
+que tenga establecida.
+Admite condiciones.
+Sticky Blade Trap
+Siempre se desplazará
+pegada a la pared más
+próxima.
+Admite condiciones.
+Bars
+Obstáculos del estilo de barras de fuego o metal giratorias.
+Fire Bars
+Barra de fuego giratoria
+que quemará al jugador
+si entra en contacto con
+ella.
+Puedes configurar la
+cantidad de barras que
+salen del centro entre una
+y cuatro, su velocidad y la
+dirección de rotación.
+Son capaces de encender
+antorchas.
+Admite condiciones.
+Spectral Fire Bars
+Como las normales, pero
+con la capacidad de
+mostrar caminos
+invisibles.
+Infringen maldiciones al
+dañar al jugador. Admite condiciones.
+Metal Bars
+Barras sólidas que no te
+permiten atravesarlas.
+Tampoco hacen daño,
+pero sí empujan cosas.
+Debes tener cuidado al
+colocarlas, pues pueden
+atrapar al jugador en
+paredes debido a las
+colisiones.
+Admite condiciones.
+Interactable
+Aquellos objetos con los que el jugador puede interactuar, ya sea para
+agarrarlos, tirar de ellos o empujarlos; así como botones que interactúan
+con condiciones y diferentes elementos de la Dungeon.
+Breakable
+La mayoría de estos objetos puedes agarrarlos, moverlos o destruirlos.
+También son contenedores para la mayoría de objetos, incluso entre ellos
+mismos.
+Pot
+Puedes levantarlos y
+lanzarlos. También
+empujados.
+Pueden contener
+variedad de objetos y
+enemigos dentro.
+Se rompen con la espada.
+Pesan, por lo que pueden
+activar interruptores de
+peso.
+Si tienen algo dentro, se
+muestran con un tapón.
+Puedes configurar el
+color.
+Puede activar
+condiciones al romperse.
+Admite condiciones.
+Skull
+Se pueden levantar y
+lanzar. Se rompen con la
+espada.
+Pueden contener objetos
+y enemigos dentro. Les
+brillan los ojos de tener
+algo en su interior. Puedes
+girarlas.
+Puede activar
+condiciones al romperse.
+Bush
+Se pueden levantar y
+lanzar. Se cortan con la
+espada.
+Pueden contener objetos
+y enemigos dentro.
+Puede activar
+condiciones al romperse.
+Rock Se pueden levantar y
+lanzar.
+Pueden contener objetos
+y enemigos dentro.
+Puedes ampliar su
+tamaño arrastrando
+antes de colocarlas.
+Puede activar
+condiciones al romperse.
+Barrel
+Se pueden destruir
+rodando hacia ellos o con
+explosivos.
+Pueden contener objetos
+y enemigos dentro.
+Puede activar
+condiciones al romperse.
+Wooden Crate
+Se pueden destruir
+rodando hacia ellas o con
+explosivos. Se pueden
+empujar.
+Pueden contener objetos
+y enemigos dentro.
+Puede activar
+condiciones al romperse.
+Metal Crate
+Se pueden destruir con
+explosivos. Se pueden
+empujar.
+Pueden contener objetos
+y enemigos dentro.
+Puede activar
+condiciones al romperse.
+Cracked Block Se pueden destruir con
+explosivos.
+Pueden contener objetos
+y enemigos dentro. En el
+agua pueden hacer de
+puente.
+Puede activar
+condiciones al romperse.
+Cracked Floor
+Se destruye con
+explosivos, liberando un
+agujero.
+Útil para hacer bajadas
+en caída de una planta a
+otra, o suelos frágiles a
+los explosivos.
+Diggable Hole Se cavan con la pala.
+Puede tener objetos y
+enemigos dentro.
+Puede activar
+condiciones al cavarse.
+Bottomless Hole
+Se cavan con la pala y
+permiten bajar a la planta
+inferior al caer por ellos
+una vez cavados.
+Útil para hacer bajadas
+en caída de una planta a
+otra.
+Puede activar
+condiciones al cavarse.
+Pushable
+Estos bloques sirven para ser empujados, así como activar algunas
+condiciones. Los dos tienen peso, y se pueden usar como decoración.
+Block
+Puedes desplazar este
+bloque.
+Se puede configurar el
+número de
+desplazamientos y fijar la
+dirección.
+Puedes mantener el click
+para aumentar su
+Puede activar
+condiciones al moverse.
+tamaño
+Si cae al agua, puede
+formar puentes.
+Pillar
+Objeto decorativo que se
+puede empujar si se
+permite.
+Puedes activar si es o no
+empujable. Si cae al vacío,
+se pierde.
+Ice Block
+Se puede empujar y se
+desplazará hasta tocar
+una pared.
+Se puede configurar el
+número de
+desplazamientos y fijar la
+dirección.
+Es derretible, admite
+objetos dentro y congela
+el agua al deslizarse
+sobre ella.
+Puedes mantener el click
+para aumentar su
+tamaño
+Puede activar
+condiciones al moverse.
+Tombstone
+Puede empujarse y
+también contener un
+mensaje escrito.
+Se puede configurar el
+número de
+desplazamientos y fijar la
+dirección.
+Puede contener un objeto
+dentro que aparecerá al
+ser desplazada.
+Puede activar
+condiciones al moverse.
+Light Sources
+Componentes de iluminación de la Dungeon. También útiles para activar
+mecanismos y resolver diferentes puzzles.
+Brazier
+Ilumina la sala. La
+iluminación global de la
+sala funcionará en
+función a cuántas haya
+apagadas y encendidas
+respecto al total de ellas.
+Se puede configurar para
+no afectar a la
+iluminación global de la
+sala. Se pueden encender
+con un candil.
+Afectan a la condición
+“todas las antorchas
+encendidas”
+Puede activar
+condiciones tras
+encenderlo.
+Admite condiciones.
+Spectral Brazier
+Ilumina la sala, cuenta
+para la iluminación
+global, y permite ver
+objetos invisibles cerca de
+ellas.
+Se pueden encender con
+un candil espectral.
+Afectan a la condición
+“todas las antorchas
+encendidas”
+Puede activar
+condiciones tras
+encenderlo.
+Admite condiciones.
+Freezeflame
+Brazier
+Ilumina la sala y cuenta
+para la iluminación
+global.
+Se pueden encender con
+un candil de fuego
+helado.
+Afectan a la condición
+“todas las antorchas
+encendidas”
+Puede activar
+condiciones tras
+encenderlo.
+Admite condiciones.
+Wall Torch
+Aportan para la
+iluminación global de la
+sala.
+Se pueden encender con
+un candil.
+Puede activar
+condiciones tras
+encenderlo.
+Admite condiciones.
+Sunlight
+Superficie de luz
+colocable que derrite
+objetos congelados.
+Se puede mantener el
+click para aumentar su
+tamaño.
+Admite condiciones.
+Message
+Herramienta que permite introducir texto en nuestras Dungeons para que
+el jugador lo lea. Interesante de cara a dar algunas pistas o contar una
+historia.
+Text Sign
+Puedes escribir en él y el
+jugador puede leerlos
+durante la Dungeon.
+Útil para dejar pistas o
+contar historias.
+Puede activar
+condiciones tras leerlo.
+Admite condiciones.
+Wall Sign Como le carte pero se
+coloca en paredes.
+Útil para dejar pistas o
+contar historias.
+Puede activar
+condiciones tras leerlo.
+Admite condiciones.
+Tattle Totem
+Aparece un diálogo tras
+golpearlo.
+Te sigue con la mirada si
+te acercas.
+Puede activar
+condiciones tras leerlo.
+Admite condiciones.
+Switches
+El conglomerado de botones de todo tipo cuyo uso principal está en la
+activación de mecanismos para resolver puzzles. Todos ellos tienen un
+fuerte peso en la utilización de condiciones y activación de secuencias en
+la Dungeon.
+Reset Switch
+Resetea el estado de los
+puzzles de la sala actual
+al inicial.
+No afecta a las llaves o
+recolectables que el
+jugador haya reunido,
+excepto las monedas de
+escudo.
+Admite condiciones.
+Pressure Plate
+Se activa con peso, tanto
+del jugador como de
+otros objetos pesados.
+Necesita peso para
+mantenerse activo.
+Puedes hacerla más
+grande y que requiera
+más peso, que se suele
+traducir en más objetos
+encima.
+Puede activar
+condiciones al pulsarlo.
+Admite condiciones.
+Puede hacerse invisible.
+Latching Pressure
+Plate
+Requiere peso para
+activarse. Se mantiene
+activo aunque le retires el
+peso.
+Puedes hacerla más
+grande y que requiera
+más peso, que se suele
+traducir en más objetos
+encima.
+Puede activar
+condiciones al pulsarlo.
+Admite condiciones.
+Puede hacerse invisible.
+Lever
+Se puede activar y
+desactivar manualmente
+o atacándola.
+Puede activar
+condiciones al
+encenderla.
+Admite condiciones.
+Crystal Switch Se activa al golpearlo.
+Puede activar
+condiciones al golpearlo.
+Admite condiciones.
+Linked Switch
+Se activa al golpearlo,
+pero requiere que todos
+los del mismo tipo sean
+atacados a la vez para
+mantenerse activos.
+Si no golpeas todos a la
+vez, no podrán activar
+ninguna condición.
+Puede activar
+condiciones al
+golpearlos.
+Admite condiciones.
+Color Switch
+Al golpearlo cambias en
+toda la mazmorra el
+comportamiento de
+objetos de color.
+Por ejemplo, los bloques
+rojos se levantarán si está
+en rojo el interruptor, y
+bajarán los azules.
+Hay varias partes que
+tienen variaciones de
+color y reaccionan a este
+interruptor.
+Permuta el
+comportamiento de los
+objetos rojos y azules.
+Admite condiciones.
+Pull Lever
+Puedes tirar de ella para
+activar mecanismos. Se
+irá recogiendo con el
+tiempo.
+La condición que haya
+activado se mantendrá
+activa hasta que se
+termine de recoger.
+Puedes configurar la
+velocidad de recogida.
+Puede activar
+condiciones al tirar de
+ella.
+Admite condiciones.
+Floor Switch
+Requiere que pulses
+todos los que hay en la
+sala sin pasar dos veces
+por uno ya activo para
+activarse completamente.
+Si fallas el puzzle, deberás
+agregar un switch de
+reset en caso de querer
+que el jugador lo quiera o
+deba reintentar.
+Puede activar la
+condición de los “Floor
+Switches” en objetos que
+admiten condiciones.
+Puede hacerse invisible.
+Propeller
+Se activa cuando aplicas
+viento sobre él, ya sea de
+tornados o turbinas.
+El tiempo que se
+mantiene activo depende
+de la fuente de viento.
+También se puede colocar
+elevado.
+Puede activar
+condiciones al hacerlo
+girar.
+Admite condiciones.
+Water Level
+Switch
+Modifica el nivel del agua
+cuando es golpeado.
+Puede activar
+condiciones al golpearlo.
+Activa la condición
+“cuando se eleva el nivel
+del agua” de otras
+partes.
+Admite condiciones.
+Gizmos
+Objetos de todo tipo de uso general, desde bloques con diferentes
+funciones reactivos a condiciones, plataformas que se desplazan, señales,
+vagonetas, bloques musicales…
+Blockades
+Bloques encargados de obstaculizar el paso al jugador. Normalmente
+requieren de requisitos y condiciones para accionarse, abriendo el paso o
+activando a su vez otros mecanismos.
+Locked Block
+Bloque retráctil que
+requiere una llave para
+abrirse y desbloquearse.
+Puede activar
+condiciones al abrirlo.
+Big Block
+Bloque retráctil que
+requiere una llave grande
+para abrirse y
+desbloquearse.
+Puede activar
+condiciones al abrirlo.
+Red Block
+Bloque rojo que se retrae
+cuando la condición de
+color de la Dungeon es
+“azul”.
+Puedes cambiar su
+estado con interruptores
+de color y la varita de
+color.
+Admiten condición de
+color.
+Blue Block
+Bloque azul que se retrae
+cuando la condición de
+color de la Dungeon es
+“rojo”.
+Puedes cambiar su
+estado con interruptores
+de color y la varita de
+color.
+Admiten condición de
+color.
+Retractable Block
+Parte retráctil que cambia
+su estado dependiendo
+de si se cumple su
+condición o no.
+Admite condiciones.
+Grapple Log
+Barricada retráctil en
+forma de tronco a la cual
+te puedes enganchar.
+Admite condiciones.
+Post
+Tocón de madera que
+hace de barricada.
+Puedes hundirlo con un
+martillo.
+Puede activar
+condiciones al
+aplastarlo.
+Admite condiciones.
+Moving platforms
+Plataformas móviles en las que el jugador puede subirse. Se usan para
+distintos tipos de terreno, aunque las básicas son todoterreno.
+Moving Platform
+Plataforma móvil capaz
+de cruzar por cualquier
+superficie no sólida.
+Puede pasar por debajo
+del “Grating”. puedes
+cambiar su dirección,
+velocidad y
+comportamiento.
+Acepta condiciones.
+Ice Platform
+Plataforma móvil cuya
+superficie resbala.
+Funciona igual que la
+plataforma móvil normal
+en el resto de aspectos.
+Acepta condiciones.
+Lava Platform
+Plataforma móvil capaz
+de navegar por la lava.
+Se hunde si estás encima
+de ella mucho rato.
+Puede pasar por debajo
+del “Grating”. puedes
+cambiar su dirección,
+velocidad y
+comportamiento.
+Si cargas un objeto sobre
+ella, se hundirá más
+rápido
+Acepta condiciones.
+Water Lily
+Plataforma móvil capaz
+de navegar por el agua.
+Se hunde si estás encima
+de ella mucho rato.
+Puede pasar por debajo
+del “Grating”. puedes
+cambiar su dirección,
+velocidad y
+comportamiento.
+Si cargas un objeto sobre
+ella, se hundirá más
+rápido
+Acepta condiciones.
+Miscellaneous
+Partes para distintos propósitos, principalmente relacionadas con el
+desplazamiento del jugador o su obstaculización, así como de otros
+objetos: comprende cosas como por ejemplo teletransportadores, cintas
+transportadoras, generadores de enemigos, turbinas de viento, etc.
+Teleport
+Teletransportadores que
+se conectan entre sí de
+dos en dos.
+Hay tres colores, aunque
+puedes poner tantos
+como quieras.
+Los teletransportadores
+siempre vienen en parejas
+que determinan sus
+destinos.
+Mantente al tanto de
+cuáles están conectados
+entre sí.
+Admiten condiciones.
+Disabled Teleport
+Estos teletransportadores
+no permiten entrar en
+ellos para
+teletransportarte.
+Puedes hacer
+teletransportes de una
+sola dirección si colocas
+una pareja de color y le
+dejas este estado
+desactivado a uno de los
+dos extremos.
+Admiten condiciones.
+Conveyor Belt Sirven para transportar
+objetos o al jugador.
+Puedes cambiar la
+dirección y velocidad.
+Admiten condiciones.
+Puede hacerse invisible.
+Color Conveyor
+Belt
+Son reactivas a los
+interruptores de color,
+cambiando su dirección
+dependiendo del mismo.
+Puedes cambiar la
+dirección y velocidad.
+Admiten condición de
+color.
+Puede hacerse invisible.
+Checkpoint
+Permite continuar la
+Dungeon desde este
+punto cuando te
+derroten.
+Vuelves a exactamente el
+punto en que lo tomas,
+con todo en el estado en
+el que estaba en ese
+momento, incluyendo
+puzzles, objetos, etc.
+Spawner
+Genera objetos y
+enemigos de forma
+ilimitada, aunque solo
+una unidad hasta que
+desaparezca o sea
+derrotada.
+Puedes configurar la
+frecuencia de generación.
+Admiten condiciones.
+Puede hacerse invisible.
+Multispawner
+Genera varios objetos de
+uno en uno sin ningún
+límite.
+Puedes configurar la
+frecuencia de generación.
+Admiten condiciones.
+Puede hacerse invisible.
+Respawner
+Genera un único objeto o
+enemigo que regenerará
+sólo cuando desaparezca
+o sea derrotado.
+Si se activa por
+condición, solo generará
+otro si vuelve a activarse
+la condición.
+La diferencia entre el
+Spawner y éste, es que el
+primero, si se mantiene
+activado por su
+condición, volverá a
+intentar generar al
+momento lo que tenga
+asignado.
+Éste en cambio, si se
+mantiene activada la
+condición, no volverá a
+generar nada hasta que
+la apagues y la vuelvas a
+activar.
+Admiten condiciones.
+Puede hacerse invisible.
+Turbine
+Turbina de viento.
+El viento empuja al
+jugador.
+Una expulsa el viento, mientras que la otra lo
+atrae hacia sí misma.
+Puedes configurar la
+fuerza del viento.
+Admiten condiciones.
+Color Turbine
+Turbinas de viento
+reactivas al interruptor
+de color.
+Cambian si expulsan o
+atraen el viento hacia
+ellas dependiendo del
+color activo en ese
+momento.
+Admiten condición de
+color.
+Whirlwind
+Pequeño tornado que
+atrapa al jugador y lo
+eleva por los aires.
+Si es disparado por una
+trampa, atrapará al
+jugador y lo desplazará
+hasta chocar con algo
+sólido.
+Admiten condiciones.
+Bridge
+Estructura que se coloca
+entre dos elevaciones
+superiores separadas a
+modo de puente.
+Puedes ampliarlas al
+arrastrar el ratón
+mientras la colocas.
+Solo se pueden colocar
+entre bordes de
+elevaciones superiores.
+Water Pipe Tubería de agua que
+empuja al jugador. Admiten condiciones.
+Coffin
+Permite revivir un jugador
+que ha sido derrotado al
+romperlo.
+Está destinado a partidas
+multijugador, pero se
+pueden hacer
+mecanismos para
+permitir que un jugador
+en single player reviva
+automáticamente tras
+morir.
+Puede activar
+condiciones al utilizarse.
+Signs
+Señales que pueden servir de guía o indicación para los jugadores.
+Icon Signs
+Carteles variados con
+formas para dar pistas al
+jugador.
+Puede hacerse invisible.
+Arrow Signs
+Carteles en forma de
+flechas variadas para dar
+indicaciones al jugador.
+Puede hacerse invisible.
+Number Signs
+Carteles con formas
+numéricas para dar
+pistas o secuencias al
+jugador.
+Puede hacerse invisible.
+Audio
+Suerte de interruptores que reproducen notas musicales cuando son
+golpeados. Son altamente configurables, y también pueden activar
+mecanismos por su cuenta, o ser activados por condiciones.
+Note Blocks
+Surtido de bloques
+musicales que
+reproducen un sonido al
+ser golpeados.
+Solo mantienen activa la
+condición durante un
+breve periodo de tiempo.
+Pueden ser golpeados
+por obstáculos.
+Pueden activar
+condiciones al ser
+golpeadas.
+Admiten condiciones.
+Puede hacerse invisible.
+Note Switches
+Surtido de interruptores
+musicales que
+reproducen un sonido al
+pasar por encima de
+ellos.
+Al activar una condición,
+solo lo harán mientras
+estés tú u otro objeto
+encima de ellos.
+Pueden activar
+condiciones al pasar
+sobre ellas.
+Admiten condiciones.
+Puede hacerse invisible.
+Rails
+Componentes para el desplazamiento del jugador sobre raíles y
+vagonetas. También hay trampolines, que pueden usarse con o sin
+vagonetas.
+Minecart
+Una vagoneta. Puedes
+montarte en ella y
+navegar por raíles.
+Se puede configurar su
+velocidad y dirección.
+Track Closure El minecart parará en
+seco al chocar con él.
+Straight Rail
+Raíl recto. Puedes
+conectar varios entre sí.
+Curved Rail Raíl curvo.
+Puedes cambiar su
+dirección.
+Level Junction Unión de cuatro caminos
+de raíles.
+Rail Switchers
+Raíles curvos que
+permiten cambiar su
+estado para dejar pasar
+la vagoneta hacia un sitio
+u otro.
+Admiten condiciones.
+Spring
+Trampolín que propulsa
+al jugador hacia el aire. Admiten condiciones.
+Bumper
+Trampolín que empuja al
+jugador cuando se
+acerca a él.
+🔧 Menú contextual
+Menú contextual
+Se trata de un submenú que nos permite configurar las partes que
+coloquemos en el lienzo de la Dungeon a nuestro gusto. Para acceder a él,
+solo debemos mantener pulsado el click sobre una parte colocada en la
+Dungeon.
+Cada parte tiene un conjunto de opciones que se pueden configurar.
+También se utiliza para manejar todo el tema de las condiciones, a lo que
+le dedicaremos su propio apartado.
+Las configuraciones más típicas que se suelen ver en los objetos son
+variaciones del mismo (de tenerlas), propiedades (en caso de tener
+parámetros configurables), condiciones generales de la parte, formas (de
+poder activarlas), secuencias (de poder activarlas) y condiciones de
+formas (de admitirlas).
+Al aplicar una configuración, condición, etc. En una parte, ésta se podrá
+visualizar como un icono representativo ocupando las esquinas del objeto
+en el lienzo.
+Variantes
+Se trata de formas alternativas de la parte, o de partes diferentes que se
+basan en la inicial. Por lo general, la existencia y cantidad de estas
+variaciones vienen indicadas en el propio libro de partes, en forma de
+pequeños indicadores cuadrados color amarillo debajo del objeto en
+cuestión.
+Podemos rotar entre ellas directamente usando click derecho en el libro
+de partes, sin tener que entrar al menú contextual y cambiarlas a mano.
+Algunas variaciones son de comportamiento del objeto, mientras que
+otras cambian completamente el propio objeto. En el caso de las
+herramientas, por ejemplo, suelen ser variaciones relacionadas, por
+ejemplo, las bombas, cambian a bombas remotas.
+Propiedades
+Determina una serie de características propias de la parte que hemos
+colocado, como por ejemplo, si es o no invisible, la velocidad de
+movimiento de una cinta transportadora, si contiene algo en su interior o
+no…
+En el caso del cofre de la imagen, podemos ver que el menú contextual
+nos da la posibilidad de cambiar su orientación, ponerle alas para
+hacerlo volador, o hacerlo invisible, entre otras. Su contenido también se
+puede cambiar, pero las opciones son tantas que para ello deberás
+arrastrar un objeto directamente al cofre desde el lienzo (lo mismo para
+todos los objetos contenedores).
+En otro objeto, como por ejemplo la plataforma voladora, podemos
+modificar su dirección, velocidad y comportamiento. También hacerla
+invisible.
+Condiciones generales de la parte
+Son un conjunto de condiciones que harán a nuestra parte u objeto
+activar un determinado comportamiento al cumplirse. Por ejemplo, en el
+caso de una puerta, se abrirá o cerrará en función de estas condiciones.
+Hay varias condiciones generales, como por ejemplo derrotar a todos los
+enemigos de una sala, encender todas las fuentes de luz, recoger todas
+las monedas espada…
+Si la condición dispone de pequeños cuadrados amarillos, es porque se
+puede cumplir de varias maneras, por ejemplo, en el caso de la condición
+de enemigos, sería o al derrotarlos a todos, o solo a uno, o al no derrotar
+ningu, etc.
+Formas y condiciones de forma
+Se trata de otra forma de condicionar el comportamiento de nuestros
+objetos, de manera algo más programática. Una parte u objeto con una
+forma, por ejemplo, cuadrado, afectará a otro que tenga activado un
+receptor condicional de esa misma forma, cuadrado en este caso.
+De esto y las condiciones en general hablaremos más detalladamente en
+el apartado de las Condiciones y Mecanismos.
+Secuencias
+Se trata de una forma más de condicionar la activación del
+comportamiento de un objeto, por ejemplo, abrir o cerrar una puerta,
+basándose en si hemos realizado una serie de acciones en un
+determinado orden.
+Asignamos a cada objeto un número, hasta un máximo de 10. Si
+interactuamos con ellos en ese orden, se cumple la condición.
+⚙️ Condiciones y mecanismos
+Condiciones y mecanismos
+Todo aquello que compone la lógica en la interacción de las partes del
+juego. Interruptores, puertas, mecanismos, automatizaciones…
+Y todo ello manejable desde un sencillo sistema de condiciones de
+entrada, y activadores de dichas condiciones.
+Para comenzar a usar las condiciones, se requiere de un manejo previo del
+menú contextual de los objetos y sus opciones.
+Por lo general, si una parte/objeto es una palanca o algo con lo que
+podemos interactuar, casi siempre va a tener la posibilidad de activar
+condiciones, ergo las páginas correspondientes en su menú contextual.
+Si por otro lado, se trata de un objeto del estilo de una puerta, un bloque
+retráctil, cosas que aparecen o desaparecen… Podemos intuir que
+recibirán condiciones y tendrán el apartado correspondiente en su menú
+contextual.
+Se recomienda comprobar qué partes tienen qué opciones en su menú
+contextual por cuenta propia.
+Condiciones comunes
+Son aquellas que tienen una forma de activarse mediante el uso de algún
+objeto concreto o estado específico de éstos.
+Enemigos derrotados en
+la sala.
+Requiere derrotar
+enemigos en la sala, ya
+sea todos, cualquiera,
+uno solo…
+Todos los interruptores
+conectados activados.
+Todos los interruptores
+“conectados” deben ser
+golpeados a la vez para
+activar esta condición.
+Antorchas de suelo de la
+sala.
+Requiere que todas las
+antorchas de suelo de la
+sala estén encendidas,
+apagadas, una sola, etc.
+Nivel del agua de la
+planta.
+Se activa o desactiva
+dependiendo del nivel del
+agua de la planta actual.
+Secuencia numérica
+correcta.
+Si una secuencia
+numérica en la sala es
+resuelta correctamente,
+activa esta condición.
+Secuencia numérica
+incorrecta.
+Si una secuencia
+numérica en la sala es
+resuelta incorrectamente,
+activa esta condición.
+Interruptores de suelo
+pulsados correctamente.
+Al pasar por todos los
+interruptores de sala sin
+repetir ninguno, activa
+esta condición.
+Interruptores de suelo
+pulsados
+incorrectamente.
+Al fallar en pasar por
+todos los interruptores
+sin repetir ninguno, se
+activa esta condición.
+Todas las monedas de
+espada recogidas en la
+Dungeon.
+Al recoger todas las
+monedas de espada de la
+mazmorra, se activa esta
+condición.
+Todas las monedas de
+escudo recogidas en la
+sala.
+Al recoger todas las
+monedas de escudo de la
+sala, se activa esta
+condición.
+Cuando la condición se cumple, se dispara un evento que hace reaccionar
+al componente con esa condición agregada.
+Condiciones de forma
+Son otro tipo de condiciones que no dependen de partes específicas y
+que se conectan libremente entre sí con un sistema “emisor” y “receptor”.
+En esencia las formas completas son los emisores, y se encuentran en el
+apartado “formas” del menú contextual de la parte, y los huecos de esas
+formas, en el apartado de condiciones de formas, son los receptores.
+Si interactuamos con un objeto que contiene una forma completa
+asignada, afectará a otros objetos que tengan el hueco de dicha forma
+asignada como condición. Así de sencillo.
+Por ejemplo, si golpeamos un interruptor con la forma “cuadrado”
+asignado, abriremos o cerraremos una puerta con el hueco de “cuadrado”
+asignado.
+Hay un total de 10 formas diferentes, y el ámbito de acción se encuentra
+limitado a la misma sala. Esto quiere decir que puedes reutilizar las
+formas tanto como quieras entre las diferentes salas.
+Guía de puertas lógicas
+Las condiciones pueden tener varias maneras de cumplirse. Por ejemplo,
+en el caso de los enemigos, puede determinarse que la condición se
+cumpla cuando derrotas a todos los enemigos, o simplemente al derrotar
+uno solo de ellos, a cualquiera o ninguno.
+Para cambiar entre una lógica de comportamiento u otra, hay que hacer
+click derecho en el menú contextual en aquellas opciones que tengan
+puntos amarillos debajo, que es indicativo de que tiene alternativas.
+Puertas lógicas del emisor de la condición.
+NORMAL
+Si interactúas con el
+elemento, se activa.
+NOT / INVERTER
+Si NO interactúas con el
+elemento, se mantiene
+activado.
+Puertas lógicas del receptor de la condición.
+ALL
+Cuando todas las formas
+correspondientes se
+hayan activado, ocurre
+algo.
+OR
+Cuando cualquiera de las
+formas correspondientes
+se haya activado, ocurre
+algo.
+NOT
+Cuando no hay formas
+correspondientes
+activadas, ocurre algo.
+XOR
+Cuando SOLO UNA de las
+formas correspondientes
+está activada, ocurre
+algo.
+Al combinar puertas lógicas entre sí, y a su vez varias formas y
+condiciones, consigues crear mecanismos complejos capaces de generar
+el equivalente a una secuencia de eventos, consiguiendo a su vez hacer
+funcionar estructuras grandes y complejas de forma automática o con
+interacciones del usuario.
+Condiciones de color
+Por último tenemos una variable globalizada en todas las mazmorras que
+es el color, como concepto condicional que afecta a aquellas partes con
+variantes de “color”.
+Existen dos estados de color: rojo y azul.
+La condición de color afecta a toda la mazmorra de forma totalmente
+global. Puede ser revisada al observar un interruptor de color, y
+modificada al golpearlo. También hay un objeto capaz de permutar el
+color desde cualquier lugar al usarlo, la Vara de color.
+Las partes con condición de color activan, desactivan o varían su
+funcionamiento dependiendo del color activo.
+📝 Ejemplo visual + análisis
+🌆 Ejemplo visual.
+Aquí presentamos una breve muestra visual de varias salas conectadas y
+decoradas, como primer contacto con lo que podremos hacer con el
+editor. En esta Dungeon usamos varios objetos del libro de partes.
+Quedará también escrito un texto informativo sobre la intención del
+diseño de estas salas tras la imagen, en caso de que quieras echarle un
+vistazo. Puede serte útil aprender un poco sobre la intencionalidad tras la
+colocación de ciertos elementos, y mejoras sustanciales que se le pueden
+aplicar a un diseño a priori en condiciones.
+Análisis
+En la ilustración podemos observar tres salas.
+Abajo a la izquierda, la inicial, donde encontramos la entrada de la
+Dungeon, un camino prácticamente recto con pocas desviaciones más
+allá de un par de calaveras y una caja que como decoración podrían
+llamar la atención del jugador (un punto como este sería interesante para
+poner corazones en las calaveras y darle al jugador un feedback que le
+sirva como mensaje a futuro).
+También encontramos unos charcos de lava mayormente tapados para
+evitar que el jugador se caiga de buenas a primeras, y como indicativo de
+que igual no es buena idea bañarse en lava.
+El camino se marca con partes metálicas, que indican que por la siguiente
+puerta se continúa en la Dungeon de forma visual. Es una buena idea
+usar esto para guiar caminos secundarios y principales de distinta
+manera, por ejemplo.
+Por último, la puerta que conecta la primera sala con la segunda, la
+superior.
+La sala superior es una alargada, con varios jarrones, un cúmulo de
+objetos que llama la atención del jugador pues una de las cajas es de
+madera, siendo diferente a la de hierro que vio antes, y que si le dio por
+interactuar, no podría hacer mucho con ella más que arrastrarla. Ésta en
+cambio, podrá romperla.
+Luego un jarrón rojo, que llama la atención por encima del normal y que
+puede ser alerta de peligro. La mejor opción aquí sería por ejemplo hacer
+que los dos jarrones estuviesen separados, y uno de ellos recibiese un
+golpe externo, demostrando al jugador que son explosivos (los jarrones de
+por sí no son nada ni tienen nada dentro, más bien en este caso les
+hemos dotado de capacidad explosiva).
+A la derecha un puente, con dos enemigos. Uno de ellos mirando hacia la
+dirección contraria al jugador, permitiendo así que no lo ataque de
+buenas a primeras, y dejando al jugador experimentar un poco con la
+proximidad.
+El terreno es mínimamente peligroso, a diferencia de la primera sala, pero
+nada que simplemente siguiendo el camino no se solvente sin percances.
+Los enemigos solo podrían empujarte a izquierda o derecha por su
+posición, así que tampoco tendrán mucha ocasión de provocarte una
+caída.
+Luego hay un cofre ubicado en un terreno diferente. Este terreno es
+decorativo, y para alentar al jugador a caminar sobre él, colocamos un
+cofre, que siempre es un recurso útil para llamar la atención de los
+jugadores. Unas calaveras y cajas más donde podríamos esconder
+algunos corazones por si el jugador ha perdido vitalidad y listo, puerta a
+la tercera sala.
+La tercera sala tiene forma de “L”, y contiene una zona de vacío que
+conecta a su vez con una planta inferior. Es menos peligrosa en cuanto a
+terreno que la anterior, aunque caerte supone la posibilidad de perder los
+cofres hallados al final, así como ir a una zona desconocida.
+Aparece un enemigo nuevo, en dos iteraciones. La primera controlada, no
+hay vacío, no hay nada además de un camino recto y el enemigo en
+medio. La segunda ya sí, se hace sobre el puente: cuando el jugador sepa
+cómo se comporta el enemigo, aumentamos ligeramente el reto. Como
+este enemigo se mueve saltando cuando lo atacas, las posibilidades de
+que lo precipites al vacío incrementan al luchar sobre terreno inseguro.
+Una forma más interesante de plantear al primer enemigo, es quizás
+agregando una agujero justo en la parte de abajo, donde están la tubería
+decorativa y la hierba. Así puedes comprobar mucho más fácilmente que
+ese enemigo al saltar puede precipitarse al vacío.
+Hecho todo esto, hallaríamos los dos últimos cofres al final de la sala.
+Listo.
+Por si tienes curiosidad de cómo quedarían las salas previamente
+mencionadas con los pequeños cambios realizados, este sería un posible
+resultado.
+Correcciones
+Puntualmente cerramos la última sala cuando la cruce para obligar al
+jugador a caer a la planta de abajo tras terminar de hacer lo que tenga
+que hacer en ella. En ésta se puede ver suelo metálico, que como hemos
+visto hasta ahora, estaba presente en cada puerta del camino principal,
+guiando al jugador. Ésto debería ser un buen soporte para generar la
+confianza de saltar a la planta inferior en el mismo.
+El jarrón explosivo ha sido desplazado y será detonado por una trampa,
+que a su vez se desactivará en el momento en que el jarrón explote.
+Indicará al jugador la función del jarrón, y a su vez apagará la trampa
+para no agregar más peligrosidad a la sala.
+Agregamos corazones por aquí, monedas por allá, brújula y mapa, y
+estamos listos.
+En caso de que el jugador caiga o se deje caer antes de alcanzar el mapa
+y la brújula, no estará de más plantear de a futuro la posibilidad de
+devolverlo arriba de alguna manera. Es importante que esto no ocurra
+con objetos clave o llaves necesarias para completar la mazmorra, pues
+podemos bloquear permanentemente al jugador. ¡Eso está en nosotros
+cuando diseñamos la Dungeon!
+📑 Diseñando una Dungeon
+Diseñando una Dungeon
+Paso a paso
+En esta sección, se mostrarán los pasos más importantes a seguir de cara
+al diseño y elaboración de una Dungeon, así como algunos tips útiles.
+Abrir el editor
+Podemos tener mil ideas o ninguna en la cabeza, pero lo más importante,
+si queremos comenzar, es hacerlo. Abrir el editor y empezar a hacer
+algunas salas mientras decidimos la temática, objetos, tipos de puzzles,
+mecánicas, etc.
+Esto es importante para visualizar inmediatamente todas las ideas que se
+nos puedan empezar a ocurrir, aun si no todas van a poder ser
+implementadas. Así también podemos comprobar rápidamente si son
+siquiera posibles.
+Aun así no debemos emocionarnos y empezar a crear salas
+aleatoriamente sin tener en mente siquiera qué mecánicas vamos a usar.
+Quizás alguna vez funcione algo así, pero no es frecuente.
+Planificar la temática
+Dungeon de agua, lava, minas abandonadas, vagonetas, bosque, zonas
+elevadas, vacío… Es importante establecer algunas pautas de
+construcción iniciales para dirigir la temática de nuestra Dungeon y que
+todo lo que construyamos en ella tenga un mínimo de coherencia.
+Esto no significa que no podamos hacer Dungeons alocadas, pero incluso
+para eso necesitamos tener en mente cómo queremos hacerlas y qué
+vamos a utilizar. Es la dungeon la que debe verse alocada, no nuestra
+mente a la hora de crearla.
+Es importante también echarle imaginación. Debemos pensar en los tipos
+de salas que quieres introducir en la Dungeon, e intentar inventar cosas
+que quizás no sean las más vistas con la temática escogida pero puedan
+encajar.
+Es interesante en este punto ir creando una suerte de “Lobby” o sala
+inicial de la mazmorra, para ir ramificando ideas desde ahí, aplicando una
+temática ya de inicio, un estilo de decoración, etc.
+No hay que darle vueltas y vueltas a cada puzzle en este punto, pues
+vamos a ir variando de ideas a lo largo de la creación de la Dungeon
+múltiples veces con total seguridad.
+Debemos planificar de antemano los objetos y mecánicas de nuestra
+Dungeon, la navegación general que queremos llevar a cabo en ésta y la
+arquitectura adecuada para ello.
+Seleccionar las mecánicas principales (objetos y
+puzzles)
+El tipo de puzzles y los objetos que vamos a usar, la forma de usarlos para
+navegar la Dungeon… Todo ello forma parte de las mecánicas que
+introduciremos en nuestra creación, y debemos ser claros y estructurar
+bien nuestras ideas en torno a estos.
+Por ejemplo, podemos comenzar por elegir un objeto principal que
+queremos que se use en la Dungeon. A partir de aquí ya podemos ir
+visualizando algunos puzzles alrededor de él. Será el momento de
+comenzar a construir un inicio de mazmorra, e ir pensando en la
+navegación de la misma.
+Debemos recordar que es importante tener escogidas las mecánicas y
+objetos previamente a construir los puzzles en sí o las conexiones entre
+las salas de la Dungeon, pues si generamos un mapa o algunas salas
+importantes sin tener en cuenta el objeto o mecánicas que vamos a
+explotar, nos veremos rehaciendo gran parte de nuestra Dungeon tarde o
+temprano por no poder encajar bien nuestras ideas según nos lleguen
+cuando vayamos decidiendo qué objetos usar.
+No se descarta tener alguna idea a posteriori, pero lo mejor es siempre
+tener estructuradas las cosas antes de empezar a construir en serio.
+Si tenemos un objeto en mente, podemos comenzar por construir algunas
+salas que no lo necesiten obligatoriamente al inicio, y vayan anticipando
+su uso dándole pistas visuales al jugador en forma de zonas que no
+puede alcanzar o puzzles aislados que no puede resolver y que le
+obstaculizan caminos apartados de la ruta inicial, pero que se note que
+forman parte de la navegación principal de la Dungeon.
+La anticipación funciona como una herramienta para generar interés y
+motivación en el jugador. Esto está relacionado con el principio de
+foreshadowing en diseño.
+La frecuencia y prontitud con que aparezcan estas anticipaciones
+dependerá de tu diseño y cómo de alejado esté el objeto del inicio de la
+Dungeon. Normalmente suele ser buena idea uno de los siguientes
+esquemas:
+● El objeto se recibe en el primer tercio de la Dungeon.
+El jugador va viendo anticipaciones tras pasar las salas
+introductorias de la misma. En este tipo de diseño, el objeto
+introduce sus mecánicas poco a poco a modo de tutorial cuando lo
+obtienes, de manera que el jugador se adapte perfectamente a él.
+La mazmorra suele estar mayoritariamente cerrada hasta que
+adquieres dicha herramienta, y el camino hacia a ella debe estar
+bien marcado.
+● El objeto se recibe a mitad de la Dungeon.
+Comenzamos con las anticipaciones cuando queda poco para llegar
+a la sala. Normalmente en este tipo de diseño, conseguir el objeto
+supone un punto de inflexión, cambiando la forma de navegar la
+Dungeon y abriendo caminos totalmente nuevos y diferentes.
+// INSERTAR GRÁFICO
+También en este caso, suele ser común que poco antes del objeto, el
+jugador haya cruzado una sala “central” y amplia con caminos
+cerrados y puzzles que lo requieran, siendo además esta sala
+central un conector entre el inicio de la Dungeon y la segunda mitad,
+así como un punto de separación claro entre las dos mitades.
+Además a veces, la sala central previamente mencionada puede
+plantearse como una gran sala a la que retornarás en varias
+ocasiones ahora que dispones del objeto, resolviéndola desde
+diferentes ubicaciones accesibles al navegar la segunda mitad de la
+Dungeon, hasta desbloquear el camino final hacia el jefe o algo
+similar.
+● El objeto se recibe en el tercer tercio de la Dungeon.
+No se debe anticipar demasiado el objeto, o el jugador se olvidará
+de la mayoría de zonas y puzzles en que podría darle uso. En lugar
+de eso, debemos aislar el uso del objeto a las zonas finales de la
+misma, cambiando sustancialmente el ritmo y el estilo de los puzzles.
+// INSERTAR GRÁFICO
+Normalmente se suele enfocar mucho el uso constante del objeto
+concentrado al final cuando se escoge un diseño como este.
+También el propio objeto suele tener mucho peso en la derrota del
+jefe final de la Dungeon, siendo incluso un objeto pensado
+principalmente para este propósito.
+Como detalle de importancia, destacar que en caso de usar este
+enfoque, el objeto de la mazmorra debe tener un funcionamiento
+sencillo de entender para con las mecánicas de los puzzles, a un
+nivel prácticamente intuitivo, debido al corto tiempo del que
+dispondrá el jugador para adaptarse a él.
+● En caso de dar más de un objeto.
+Debemos emplear igualmente alguna de las opciones anteriores,
+separando los objetos adecuadamente y escoger conforme a ello las
+salas en las que vamos a usarlos.
+Por ejemplo, si usamos dos objetos, uno en la mitad de la Dungeon, y
+otro a partir del tercer tercio, iremos anticipando poco a poco el
+primer objeto, mientras que el segundo tendrá sus usos visibles a
+partir de que lo recojamos, o apenas una o dos salas antes de su
+posición.
+Todo esto no son más que consejos generales que pueden obviarse en
+determinadas ocasiones si se tiene un planteamiento distinto a la hora de
+crear la Dungeon y sus mecánicas.
+Por ejemplo, podemos darle un objeto al jugador nada más empezar para
+que lo vaya usando en los primeros puzzles que encuentre y se adapte a
+él. En este último caso, el objeto suele estar fuertemente ligado a la
+navegación de toda la mazmorra.
+// INSERTAR GIF THROUGH THE FOREST HEIGHTS COGIENDO LA PLUMA
+AL INICIO DE LA MAZMORRA.
+Otra forma de afrontar la distribución de objetos podría ser aislar zonas
+en la Dungeon en que se usen diferentes objetos en “pasillos de solo ida”,
+con retos al final de los mismos, y retorno a una zona central. Una especie
+de “lobby” con “salas de retos”. Hay mil formas de afrontar este paso, y
+muchas combinaciones posibles entre ellas.
+Por otro lado tenemos los puzzles en sí mismos. Escoger la dificultad,
+complejidad, si repetiremos fórmula, si cada sala tendrá sus propias
+mecánicas de puzzle, cuántas veces usaremos los objetos, si se mezclarán
+entre sí para resolver los puzzles…
+Es importante tener todo esto en cuenta. Y recordemos que al final lo que
+buscamos es un buen ritmo para garantizar la diversión del jugador.
+Las soluciones deben estar ahí, y el reto debe consistir en llegar a ellas, en
+buscar la manera con las herramientas dadas. Nunca debemos esperar
+que el jugador adivine qué pretendemos que haga o qué queremos que
+use.
+Es cierto que según avanzamos en la Dungeon, la complejidad de los
+puzzles aumenta y se esperará que el jugador se estruje más el cerebro,
+pero nunca debemos dejar cosas demasiado complejas que hagan que el
+jugador pierda el interés por resultarle imposible adivinar qué estamos
+pensando. El jugador debe resolver la Dungeon, no ordenar nuestra
+cabeza y plasmarla en la suya.
+Elegir método de navegación y arquitectura
+Caminar por la Dungeon debe ser suficientemente cómodo como para
+que el jugador no se frustre por tener que seguir navegando en ella.
+Normalmente no queremos que el jugador se pierda y comience a dar
+vueltas sin sentido, perdiendo el tiempo y potencialmente aburriéndose,
+así que tenemos que hacer un buen trabajo guiándole por el camino
+principal que tengamos establecido.
+También es importante no hacerle confundir los caminos principales y
+secundarios, al menos en la mayoría de planteamientos. Debe tener claro
+por dónde podrá avanzar.
+Tampoco es plan de llevarlo de la mano constantemente con flechas e
+indicaciones. Aquí es donde entra el ingenio y las buenas prácticas de
+cara a generar los caminos y el orden de las salas por las que va a pasar
+el jugador.
+Existen múltiples formas de dejarle claro al jugador dónde está y hacia
+dónde tiene que ir. Códigos de colores, objetos específicos, enemigos,
+tipos de suelo, trampas concretas… Todo esto, sobre todo si los caminos
+acaban entrelazándose, ayudará a orientar al jugador en todo momento.
+Recordemos que como recurso opcional, siempre podrá tener el mapa
+para saber de dónde viene y a dónde podría ir potencialmente.
+También es completamente válido en una Dungeon con una estructura de
+separación de zonas que no se entrelazan entre sí, simplemente dejar bien
+marcadas las entradas y salidas de dichas zonas.
+Por último, si vamos a hacer que el jugador cruce varias veces por las
+mismas áreas, debemos intentar que no se sienta como la misma
+experiencia una y otra vez. Si has obtenido un objeto nuevo, úsalo para
+cuando tenga que volver por esa zona.
+En la medida de lo posible, es interesante plantear rutas de retorno
+alternativas que eviten volver sobre tus pasos, y la creación de atajos
+entre zonas que hagan que el jugador no tenga que caminar de nuevo
+salas con puzzles resueltos que no tienen ya ningún sentido, o partes
+tediosas o peligrosas que ya ha completado anteriormente.
+De cara a la arquitectura, hay varias formas de afrontarla, y esto estará
+ligado a la manera en que ocurrirá la navegación de la Dungeon por parte
+del jugador. Aquí distinguiremos dos tipos de estructuras a la hora de
+generar su arquitectura.
+Estructuras Abiertas
+● Sala central y ramificaciones.
+Normalmente comenzamos con una entrada relativamente pasillera
+que busca dejar al jugador rápidamente en una sala grande,
+reconocible y recurrente centralizada de la Dungeon desde la cual
+vas a ir por diferentes caminos únicos para resolverlos, volviendo a
+la sala central de nuevo con el progreso adquirido. Tras varias
+iteraciones se abriría el camino hacia el final.
+El orden en que resuelves las salas está en manos del jugador, y
+suelen estar pensadas para adaptarse en caso de recibir objetos en
+alguna de las ramas.
+El ejemplo más literal y de libro sería el castillo de Ganondorf en The
+Legend of Zelda: Ocarina of Time. Su primera mitad, que realmente
+compone en duración como tres cuartos de la Dungeon, es
+precisamente usar una sala principal como lobby de retorno e ir por
+diferentes rutas pasilleras con distintos desafíos hasta alcanzar el
+objetivo individual de cada uno, que al juntarlos, abren la torre
+central: el camino a la batalla final.
+● Salas interconectadas.
+Son Dungeons generalmente abiertas que ofrecen al jugador
+múltiples bifurcaciones y varias conexiones entre salas. Suele
+comenzar con una suerte de pequeño pasillo principal con varias
+puertas, permitiéndonos escoger, y dependiendo de la elección,
+haciéndonos resolver la mazmorra en un orden u otro, pudiendo el
+jugador cambiar de camino a mitad de la misma.
+Requieren estar muy bien guiadas y señalar correctamente la
+posición del jugador para evitar que se pierda, cosa que ocurre con
+frecuencia en este estilo de Dungeon.
+Este estilo de mazmorra por sí misma no es tan frecuente.
+● Sala central recurrente interconectada.
+Posiblemente uno de los tipos más usados de mazmorras en cuanto
+a las abiertas, si no el que más. Combina los dos tipos anteriores,
+consistiendo en una estructura con una sala grande central en la
+mazmorra, desde la cual puedes ir a diversas zonas, teniendo
+habitualmente caminos cerrados.
+Entonces se nos plantean diversos objetivos a completar en la
+misma, teniendo a nuestra disposición una libre elección de caminos
+inicial que podremos completar en cualquier orden, y que muchas
+veces conectarán entre sí y de vuelta a la sala central.
+También es frecuente que la sala central vaya mutando según
+avanzamos en los objetivos de la Dungeon o sirva de centro de
+operaciones en forma de puzzle gigante que cambie la forma en que
+se navega por las salas.
+Es más sencillo explicar este tipo con ejemplos que con palabras, y
+uno bastante interesante sería el Templo del Bosque en The Legend
+of Zelda: Ocarina of Time, o la mayoría de mazmorras en The Legend
+of Zelda: Breath of the Wild y The Legend of Zelda: Tears of the
+Kingdom.
+En The Legend of Zelda: Majora 's Mask se plantean estructuras
+similares también, aunque son en su mayoría lineales, con alguna
+pequeña bifurcación de libre elección en el orden de resolución de
+algún puzzle, por ejemplo, en el Templo de Pico Nevado, donde
+puedes ir visitando las salas con cierta libertad y, una vez con el
+objeto de la mazmorra, puedes visitar el resto de las salas en el
+orden que quieras mayormente, abriendo conexiones entre las salas
+ya visitadas mientras tanto.
+Estructuras Lineales
+● Dungeon lineal simple.
+Sin mucho que explicar, el camino de estas mazmorras suele ser
+lineal y la navegación bastante rectilínea, con pocas o ninguna
+bifurcación en busca de contenido secundario. Es común en
+Dungeons enfocadas al combate o al uso de un determinado objeto
+desde el inicio para resolver puzzles hasta el final.
+Un ejemplo claro sería el Templo de las Sombras de The Legend of
+Zelda: Ocarina of Time, o muchas de las mazmorras de The Legend
+of Zelda: A Link To The Past ubicadas en la segunda mitad del juego.
+Generalmente pasilleras y muy lineales, abriendo algún atajo
+puntual por si eres derrotado y con pocas rutas secundarias reales
+a excepción de alguna sala suelta.
+También la estructura general de muchos de los niveles de The
+Legend of Zelda: Four Swords Adventure, por su naturaleza
+puramente lineal.
+● Dungeon lineal compleja o “abierta”.
+Estas mazmorras dan la sensación de ser de libre navegación desde
+casi el inicio, abriendo varios caminos alternativos y dejando a la
+vista muchas puertas, zonas inalcanzables… También
+estructurándolas con salas abiertas de forma recurrente.
+La realidad es que para resolver estas mazmorras se debe seguir
+una serie de pasos únicos y obligatorios en un orden específico, que
+irán abriendo las salas por las que puedes ir en el momento en que
+debas hacerlo. Muchas veces nos dejan visitar salas antes de
+tiempo, pero sin posibilidad de completarlas del todo.
+Suele ser recurrente el “backtracking” y la apertura de atajos y rutas
+de retorno.
+El Templo del Agua de The Legend of Zelda: Ocarina of Time sería un
+ejemplo idóneo, y en general casi cualquier mazmorra que no tenga
+“alternativas” en el orden en que resuelves sus salas y puzzles.
+● Dungeon lineal con sala central reiterativa.
+Dungeons que, a la hora de resolverse, adoptan una estructura
+similar a las lineales complejas, pero que suelen presentar toda la
+carga del progreso en una única sala, a la cual retornarás en
+variadas ocasiones, cambiando su estructura o resolviendo puzzles
+en ella a medida que desbloqueas objetos, llaves o posiciones
+diferentes de entrada a la misma, durante la mazmorra.
+No es excluyente con el tipo anterior, por ejemplo, el propio Templo
+del Agua de The Legend of Zelda: Ocarina of Time entraría en esta
+categoría. Las mazmorras de The Legend of Zelda: Majora 's Mask,
+también.
+Normalmente para todo lo dicho en este apartado, hacer esquemas de
+navegación, con direcciones, grafos, etc. Suele ser útil para estructurar la
+ubicación de las salas, como las navegará el jugador, qué mecánicas
+abrirán qué salas, la ubicación de las llaves y puertas cerradas, uso de
+objetos que abren otros caminos, etc.
+Por último aclarar que una mazmorra no suele encajar siempre de forma
+exclusiva en uno de estos patrones de diseño y navegación. Es común
+mezclarlos, y acudir a ellos en diferentes partes de la Dungeon según nos
+convenga, o queramos dar unas sensaciones u otras, pretendamos variar
+el ritmo…
+Recomiendo jugar varios juegos de la saga The Legend of Zelda, que
+suelen ser los que más hincapié hacen en este tipo de diseños y niveles
+para aprender más al respecto e identificar estos patrones en las
+diferentes mazmorras de sus entregas.
+A su vez, los juegos del género “Metroidvania” también son una buena
+fuente de inspiración, presentando normalmente estructuras mucho más
+amplias (siendo normalmente segmentos de un mundo entero) pero
+respetando patrones de diseño muy similares.
+Adoptar un enfoque de construcción
+Una vez tienes en mente una estructura general para la Dungeon,
+mecánicas que quieres explotar, y puzzles o encuentros que quieres
+generar, llega la hora de ponerse a construir, y podemos tomar varios
+enfoques o formas de orientar el proceso de construcción propiamente
+dicho.
+Esto es normalmente de los apartados con mayor subjetividad en cuanto
+a la elección del propio enfoque, pues cada persona o creador, tiene una
+forma específica de hacer las cosas e ir desarrollando sus ideas.
+Principalmente podemos hablar de elegir entre la pura improvisación, o la
+planificación total de cada elemento de nuestra Dungeon. Cada creador
+puede elegir libremente cualquiera de los dos, pues al final solo implica un
+cambio real en la manera en que damos forma a nuestras ideas. Si
+decides improvisar, darás forma a tus ideas poco a poco en el editor, y si
+planificas, lo harás previamente para luego trasladarlas.
+Determinado ésto, queda por determinar el enfoque desde el punto de
+vista de cómo abordaremos la construcción de las salas de la mazmorra.
+● Sala a sala.
+Con todo lo anterior preparado, este método consiste en ir
+generando las salas una a una siguiendo la estructura más o menos
+deseada, dedicando un tiempo propio a cada una de las
+habitaciones, sus puzzles, enemigos y el resto del contenido de la
+misma, y sin pasar a la siguiente hasta que la sala queda más o
+menos terminada, o por lo menos, completable.
+Es útil de cara a centrar la atención en los detalles de cada sala,
+enfocándose en sus puzzles y mecanismos, y la resolución de la
+misma independientemente de las demás. También es un sistema
+más ordenado que propicia concentrarte en problemas pequeños
+para ir completando aquellos que son mayores más adelante.
+También propicia que las salas tengan mayor personalidad y peso
+en la mazmorra, evitando las salas de paso y dándoles a cada
+habitación un toque memorable.
+Como desventaja tendríamos que, al no ser la visión de construcción
+globalizada, podemos vernos más adelante rehaciendo algunas
+rutas o puzzles de algunas salas que pueden necesitar retoques a la
+hora de conectarse con diferentes habitaciones.
+Hay que tener cuidado también con la visión de túnel.
+En lo personal, es el que más suelo utilizar.
+● Esqueleto y relleno posterior.
+Consiste en generar un mapa de navegación normalmente vacío,
+con las salas, tamaño de las mismas y conexiones entre éstas que
+quieras que tenga la Dungeon de antemano.
+Tras ello, iría tocando rellenar los puntos vacíos de la mazmorra, que
+en su mayoría serán los puzzles de las salas individualmente.
+Este enfoque permite tener en cuenta mucho mejor y más pronto
+cómo quieres que el jugador navegue y atraviese las salas de la
+mazmorra, y al tener la estructura general de éstas ya plasmada,
+puede facilitar la previsualización de tus ideas en funcionamiento a
+nivel general.
+Por otra parte, complica mantener el foco en una única sala debido
+a que todas las habitaciones están reclamando tu atención.
+También puede generar que las salas, individualmente tengan
+menos personalidad al tratar la construcción de la Dungeon como
+un todo. Suelen propiciar la generación de más “salas de paso”, en
+las que realmente solo caminamos o derrotamos enemigos pero
+tampoco nos paramos demasiado en ellas.
+Ambos métodos también se pueden mezclar, o saltar de uno a otro
+dependiendo de la importancia o peso que tengan las salas
+individualmente o los conjuntos de ellas en cada segmento de la Dungeon.
+Como se ha dicho, esto es bastante subjetivo generalmente y depende
+mucho de cómo el creador se sienta más cómodo.
+Planificar y adecuar un apartado visual
+Es importante lograr que nuestras Dungeons entren por los ojos en cierta
+medida. Si bien un gameplay interesante, puzzles complejos y combates
+retantes mantienen la atención del jugador en la jugabilidad de la misma,
+el arte y lo visual mantendrán su inmersión cada vez que deje de
+enfocarse en los retos de la misma.
+Además de que un buen apartado artístico y visual puede amenizar
+mucho la navegación y los momentos de pausa, y acompañar peleas
+épicas para hacerlas sentir aún más memorables. También la cosa trata
+de causar impresión en el jugador, y para ello hay que trabajar en lo que
+ve y cómo lo ve.
+Y no solo lo artístico por lo visual. Con la forma de construir las salas y sus
+decoraciones, estructuras, elementos, colores, etc. Podemos provocar
+emociones en el jugador, como la angustia en zonas estrechas y oscuras,
+la sensación de engrandecimiento en salas condecoradas e
+impresionantes visualmente, o hacerle sentir en un mundo enorme
+cuando la sala es grande y con varios elementos repartidos.
+Cabe destacar que el apartado visual es vital a la hora de guiar al
+jugador a través de la Dungeon, haciéndole tomar unas rutas u otras, y
+pudiendo jugar con su intención para que haga lo que nosotros
+queremos que haga.
+Usar marcas, colores, señales… Todo es válido y depende del contexto y de
+ti aprender las técnicas de guía de jugador que mejor se adapten a tu
+manera de crear y tu forma de construir y decorar.
+También es importante cuidar el arte general de cada sala respecto al de
+la mazmorra y su temática, de manera que no vas a poner vacíos de
+agujeros de cueva repentinos en una zona ubicada en una construcción
+sólida donde además se usan luces abundantes y estructuras sólidas,
+como tampoco tiene mucho sentido colocar una sala llena de agua justo
+al lado de otra llena de lava sin nada de por medio que lo justifique.
+Si la mazmorra es un volcán, tampoco tiene mucho sentido que haya
+zonas con hierba y agua, o salas completamente iluminadas en las que no
+fluye la lava o magma si se supone que estamos en un interior
+completamente apartado de cualquier acceso al exterior.
+Todo esto último hará que el jugador se adentre y sienta inmersión en los
+entornos que estamos creando, y no la pierda por carecer de credibilidad
+aquello que le planteamos a nivel visual. Es importante que haya cohesión
+artística.
+Por último hay que tener cuidado con el ruido. En esencia es todo lo visual
+que molesta a la vista del jugador y lo puede distraer más de la cuenta,
+apartándose de aquellas cosas que realmente importa que enfoque su
+vista en ellas. Repetición de patrones constantemente, colocar pequeñas
+decoraciones por todas partes… Todas estas generan ruido y hacen que el
+jugador pierda el foco y por ende, el interés.
+Realizar playtesting y revisiones
+Una de las cosas que más vamos a hacer a la hora de crear la mazmorra,
+y también un apartado muy importante cuando finalicemos la
+construcción de la misma.
+Esencialmente es probar lo que construímos jugándolo nosotros mismos.
+Mecanismos, puzzles, salas completas, pequeñas estructuras,
+navegabilidad, comodidad, el reto de los combates… Todo pasa por un
+testeo posterior, tanto de forma individual en casos unitarios (puzle por
+puzle, e incluso pieza de puzle por pieza de puzle) como de manera
+globalizada (salas completas, secuencias, o partes enteras de la
+mazmorra, conjuntos de salas enteras…)
+También es obligatorio que una vez probado todo de forma individual y
+ultimados los retoques finales, probemos nuestra Dungeon de inicio a fin,
+y comprobemos en su totalidad cómo se siente y qué tal funciona todo en
+conjunto.
+Además también es de utilidad pedirle a otras personas que la prueben y
+compartan sus propias experiencias únicas, pues diferirán mucho de las
+nuestras probablemente, ya que ellos no conocen la resolución de la
+Dungeon ni sus puzzles y pueden darnos una visión más cercana al
+público objetivo real.
+A medida que vayamos probando cosas probablemente iremos
+modificando las que menos nos convenzan o las que peor han salido en
+las fases de testeo completo de la mazmorra. Aquellas que no se sientan
+bien, injustas, puzzles tediosos, combates peor regulados… Todo es parte
+del proceso de pulido, y no hay que temerle incluso a re-enfocar puzzles y
+salas enteras de darse la situación.
+También es probable que acabemos eliminando puzzles o salas enteras, y
+simplificando estructuras que al final aportan poco y pueden ser
+recortadas (aunque también puede que acabemos ampliando partes que
+se sientan insulsas o tengan poca personalidad).
+Al final incluso aunque creamos que la Dungeon está perfecta y finalizada,
+lo más probable es que haya algo puntual que podamos mejorar.
+Puntualizar finalmente, aunque no por ello menos importante, que es muy
+común encontrarte con errores garrafales que pueden bloquear el
+progreso del jugador en la Dungeon a lo largo de los testeos finales. Éstos
+son los más importantes y debemos controlarlos a toda costa. Se
+recomiendan múltiples testeos de mazmorra completos y de formas
+alternativas, probando cosas raras e intentando romper las cosas.
+Recibir feedback y proceso postproducción
+Ésto ya es una vez finalizado el proceso de creación y lanzado al
+mazmorra al público, ya sea un público controlado o uno de testeo.
+Recibiremos opiniones, gente que no podrá completarla, inconformidades
+con algún que otro puzle, y también críticas generalizadas a la forma de
+hacer las cosas. Por otro lado también vendrán los halagos, las buenas
+palabras, los ánimos y consejos de mejora.
+Merece la pena escucharlo todo, desde lo malo hasta lo bueno, ponderar
+un poco el peso que tiene cada argumento en función a la crítica general,
+y hacer modificaciones pertinentes, ya que cada mazmorra puedes
+editarla libremente una vez publicada, y tras hacer otro playtesting de
+subida, puedes dejar una versión mejorada al público final.
+No es obligatorio hacerlo pero, de cara a mejorar como creador, es una
+parte importante, e incluso imprescindible diría, para aprender a corregir
+errores que claramente podemos pasar por alto tras todo lo dicho
+anteriormente, y así también podremos crecer como creadores y
+establecer mejor nuestro estilo y público objetivo de nuestras Dungeon.
+// TODO:
+IMÁGENES BONITAS DE LAS DISTINTAS COSAS AQUÍ PLANTEADAS.
+REVISIÓN GENERAL DEL DOCUMENTO Y CAMBIOS / APORTACIONES
+DONDE SEA NECESARIO.
+❓ F.A.Q. (Práctica de clase)
+F.A.Q
+❓ ¿Cómo se hace esto, se pone invisible lo otro, se pone oscura una
+sala, se cierran las nuevas tapas de botella sin querer asesinar a
+nadie?
+❗ Excepto para lo último: revisa la guía. Casi todo lo que soléis
+preguntar literalmente está en la página principal de la guía, y
+con una lectura rápida por los apartados lo podéis localizar
+en cinco segundos. Si una vez con ello, seguís teniendo dudas,
+ahí os atiendo.
+❓ ¿Qué son los anillos?
+❗ Objetos pasivos, una suerte de opciones de accesibilidad
+camufladas para los jugadores. Se obtienen en los minijuegos
+de Castle Town. Sí, hay también un apartado entero dedicado
+a ellos ahora.
+❓ ¿Dónde están los archivos de guardado del juego y las mazmorras
+que he construído?
+❗ “/AppData/LocalLow/Apogee Entertainment/Quest Master/…”
+Podéis acceder rápido poniendo en la barra de rutas del
+explorador de Windows “%appdata%”, lo que te llevará a una
+subcarpeta de AppData, “Roaming”, y ya desde ahí retrocedes y
+ves “LocalLow”.
+❓ ¿Para cuándo era la tarea?
+❗ Preguntadle al profe. Y de paso, decidle que cambie la fecha,
+que el 8 de Enero de 2024 es ya un poco viejo.
+❓ ¿Esta es la última versión del juego que vamos a tener?
+❗ Sí, a excepción de bug-fixes. En caso de haber algo importante,
+subiré la versión de la Moodle.
+❓ ¿Pero la dungeon tiene que durar solo diez minutos?
+❗ No Fran. Puede durar lo que te dé la gana, pero que tenga
+sentido la duración por favor. No queremos pasillos donde
+hacer una sesión de cardio intensivo.
+❓ ¿Se puede meter trolleito de serpientes agresivas en la dungeon?
+❗ … Sí, David Ruíz, se puede meter trolleito de serpiente en tu
+cara nada más empezar la dungeon. Como poder puedes.
+Ahora…
